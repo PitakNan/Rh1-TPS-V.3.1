@@ -1,0 +1,194 @@
+{
+  "project": "TPS (Total Performance Score) Database Export",
+  "description": "ระบบ TPS ของสำนักปลัดกระทรวงสาธารณสุข ครอบคลุมโรงพยาบาล 903 แห่ง 23 ไตรมาส (2563Q4–2569Q2)",
+  "total_records": 20714,
+  "tables": {
+    "hospitals": {
+      "description": "ข้อมูลหลักของโรงพยาบาล (Master Table)",
+      "records": 903,
+      "primary_key": "hospital_code",
+      "fields": {
+        "hospital_code": "รหัสโรงพยาบาล (เช่น 10713)",
+        "hospital_name": "ชื่อโรงพยาบาล",
+        "province": "จังหวัด",
+        "zone": "เขตสุขภาพ (1–12)",
+        "type": "ประเภท รพ. (รพศ. / รพท. / รพช.)",
+        "group": "กลุ่มโรงพยาบาล (เช่น รพช.F2 P30,000-60,000)"
+      }
+    },
+    "periods": {
+      "description": "ตารางช่วงเวลาไตรมาส (Master Table)",
+      "records": 23,
+      "primary_key": "period_id",
+      "fields": {
+        "period_id": "รหัสช่วงเวลา เช่น 2563Q4",
+        "year": "ปี พ.ศ.",
+        "quarter": "ไตรมาส (1–4)"
+      }
+    },
+    "tps_scores": {
+      "description": "คะแนน TPS และ Grade หลักของแต่ละโรงพยาบาลในแต่ละไตรมาส",
+      "records": 20714,
+      "foreign_keys": [
+        "hospital_code → hospitals",
+        "period_id → periods"
+      ],
+      "fields": {
+        "hospital_code": "FK → hospitals",
+        "period_id": "FK → periods",
+        "tps_score": "คะแนน TPS รวม (0–20)",
+        "grade": "เกรด (A/B/C/D/F)",
+        "score_1_1": "คะแนนด้าน 1.1",
+        "score_1_2": "คะแนนด้าน 1.2",
+        "score_1_3": "คะแนนด้าน 1.3",
+        "score_1_3_1": "คะแนนด้าน 1.3.1",
+        "score_1_3_3": "คะแนนด้าน 1.3.3",
+        "score_2_1": "คะแนนด้าน 2.1",
+        "score_2_2": "คะแนนด้าน 2.2",
+        "score_outcome": "คะแนน Outcome",
+        "score_process": "คะแนน Process",
+        "pt_sum": "คะแนนรวม PT (300 คะแนน)",
+        "pt_eval": "ผล PT"
+      }
+    },
+    "financial_performance": {
+      "description": "ผลการดำเนินการทางการเงิน เทียบแผน vs จริง (pf_)",
+      "records": 20714,
+      "foreign_keys": [
+        "hospital_code → hospitals",
+        "period_id → periods"
+      ],
+      "fields": {
+        "rev_plan": "รายได้ตามแผน (บาท)",
+        "rev_actual": "รายได้จริง (บาท)",
+        "rev_pct": "ร้อยละรายได้เทียบแผน",
+        "rev_pass": "ผ่านเกณฑ์รายได้ (0/1)",
+        "exp_plan": "ค่าใช้จ่ายตามแผน (บาท)",
+        "exp_actual": "ค่าใช้จ่ายจริง (บาท)",
+        "exp_pct": "ร้อยละค่าใช้จ่ายเทียบแผน",
+        "exp_pass": "ผ่านเกณฑ์ค่าใช้จ่าย (0/1)"
+      }
+    },
+    "financial_ratios": {
+      "description": "อัตราส่วนทางการเงิน (ratio_)",
+      "records": 20714,
+      "foreign_keys": [
+        "hospital_code → hospitals",
+        "period_id → periods"
+      ],
+      "fields": {
+        "ratio_cr": "Current Ratio",
+        "ratio_qr": "Quick Ratio",
+        "ratio_cash": "Cash Ratio",
+        "ratio_nwc": "Net Working Capital",
+        "ratio_ebitda": "EBITDA",
+        "ratio_opm": "Operating Profit Margin",
+        "ratio_opm_med": "OPM Median",
+        "ratio_roa": "Return on Assets",
+        "ratio_roa_med": "ROA Median",
+        "ratio_im": "Income Margin",
+        "ratio_ni": "Net Income",
+        "ratio_reserve": "Reserve Ratio",
+        "ratio_acp_uc": "ACP UC (วันลูกหนี้ UC)",
+        "ratio_acp_cs": "ACP CS (วันลูกหนี้ CS)",
+        "ratio_acp_sss": "ACP SSS",
+        "ratio_app_d": "AP Days (วันเจ้าหนี้)"
+      }
+    },
+    "indicators": {
+      "description": "ตัวชี้วัดรายด้าน 20 ตัวชี้วัด (ind_)",
+      "records": 20714,
+      "foreign_keys": [
+        "hospital_code → hospitals",
+        "period_id → periods"
+      ],
+      "fields": {
+        "ind_nwc": "NWC (บาท)",
+        "ind_ebitda": "EBITDA (บาท)",
+        "ind_expense": "ค่าใช้จ่าย",
+        "ind_revenue": "รายได้",
+        "ind_bed_occ": "อัตราครองเตียง (%)",
+        "ind_trial_bal": "งบทดลอง (pass/fail)",
+        "ind_lc": "Labor Cost indicator",
+        "ind_drug": "Drug Cost indicator",
+        "ind_sci_mat": "Science/Material indicator",
+        "ind_non_drug": "Non-Drug indicator",
+        "ind_qm_op": "QM ผู้ป่วยนอก",
+        "ind_qm_ip": "QM ผู้ป่วยใน",
+        "ind_opm": "OPM indicator",
+        "ind_roa": "ROA indicator",
+        "ind_cash": "Cash indicator",
+        "ind_app_d": "AP Days indicator (pass/fail)",
+        "ind_app_d_val": "AP Days ค่าจริง (วัน)",
+        "ind_acp_uc": "ACP UC indicator (pass/fail)",
+        "ind_acp_uc_val": "ACP UC ค่าจริง (วัน)",
+        "ind_acp_cs": "ACP CS indicator (pass/fail)",
+        "ind_acp_cs_val": "ACP CS ค่าจริง (วัน)",
+        "ind_aip": "AIP indicator (pass/fail)",
+        "ind_aip_val": "AIP ค่าจริง",
+        "ind_sum_adjrw": "AdjRW รวม"
+      }
+    },
+    "quality_metrics": {
+      "description": "ตัวชี้วัดคุณภาพ/ต้นทุน ผู้ป่วยนอก-ใน และหมวดหมู่ค่าใช้จ่าย (qm_ + hgr_)",
+      "records": 20714,
+      "foreign_keys": [
+        "hospital_code → hospitals",
+        "period_id → periods"
+      ],
+      "fields": {
+        "qm_op_cost": "ต้นทุนต่อครั้ง ผู้ป่วยนอก (บาท)",
+        "qm_op_mean": "ค่าเฉลี่ยกลุ่ม ผู้ป่วยนอก",
+        "qm_ip_cost": "ต้นทุนต่อ AdjRW ผู้ป่วยใน (บาท)",
+        "qm_ip_mean": "ค่าเฉลี่ยกลุ่ม ผู้ป่วยใน",
+        "hgr_lc": "หมวดบุคลากร (Labor Cost บาท)",
+        "hgr_lc_mean": "ค่าเฉลี่ย LC กลุ่ม",
+        "hgr_drug": "หมวดยา (บาท)",
+        "hgr_drug_mean": "ค่าเฉลี่ยยา กลุ่ม",
+        "hgr_sci": "หมวดวิทยาศาสตร์/วัสดุ (บาท)",
+        "hgr_sci_mean": "ค่าเฉลี่ย Sci กลุ่ม",
+        "hgr_nondrug": "หมวดค่าใช้จ่ายอื่น-ไม่ใช่ยา (บาท)",
+        "hgr_nondrug_mean": "ค่าเฉลี่ย NonDrug กลุ่ม"
+      }
+    },
+    "risk_profile": {
+      "description": "โปรไฟล์ความเสี่ยงทางการเงิน และข้อมูลทรัพยากร (rp_ + bo_ + sa_)",
+      "records": 20714,
+      "foreign_keys": [
+        "hospital_code → hospitals",
+        "period_id → periods"
+      ],
+      "fields": {
+        "rp_risk_score": "คะแนนความเสี่ยงรวม",
+        "rp_grade_plus": "เกรดความเสี่ยงรวม",
+        "rp_cr": "ระดับความเสี่ยง Current Ratio",
+        "rp_qr": "ระดับความเสี่ยง Quick Ratio",
+        "rp_cash": "ระดับความเสี่ยง Cash",
+        "rp_nwc": "ระดับความเสี่ยง NWC",
+        "rp_ebitda": "ระดับความเสี่ยง EBITDA",
+        "rp_roa": "ระดับความเสี่ยง ROA",
+        "rp_opm": "ระดับความเสี่ยง OPM",
+        "rp_reserve": "ระดับความเสี่ยง Reserve",
+        "bo_beds": "จำนวนเตียง",
+        "bo_cmi": "Case Mix Index",
+        "bo_rate": "อัตราครองเตียง",
+        "sa_value": "Salary/ค่าตอบแทน (บาท)",
+        "sa_median": "Median เงินเดือน กลุ่ม"
+      }
+    }
+  },
+  "relationships": [
+    "tps_scores.hospital_code → hospitals.hospital_code",
+    "tps_scores.period_id → periods.period_id",
+    "financial_performance.hospital_code → hospitals.hospital_code",
+    "financial_performance.period_id → periods.period_id",
+    "financial_ratios.hospital_code → hospitals.hospital_code",
+    "financial_ratios.period_id → periods.period_id",
+    "indicators.hospital_code → hospitals.hospital_code",
+    "indicators.period_id → periods.period_id",
+    "quality_metrics.hospital_code → hospitals.hospital_code",
+    "quality_metrics.period_id → periods.period_id",
+    "risk_profile.hospital_code → hospitals.hospital_code",
+    "risk_profile.period_id → periods.period_id"
+  ]
+}

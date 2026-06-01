@@ -1,0 +1,7226 @@
+[
+  {
+    "hospital_code": 10674,
+    "hospital_name": "รพ. เชียงรายประชานุเคราะห์",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11189,
+    "hospital_name": "รพ. เทิง",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11190,
+    "hospital_name": "รพ. พาน",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11191,
+    "hospital_name": "รพ. ป่าแดด",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11192,
+    "hospital_name": "รพ. แม่จัน",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11193,
+    "hospital_name": "รพ. เชียงแสน",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11194,
+    "hospital_name": "รพ. แม่สาย",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11195,
+    "hospital_name": "รพ. แม่สรวย",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11196,
+    "hospital_name": "รพ. เวียงป่าเป้า",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11197,
+    "hospital_name": "รพ. พญาเม็งราย",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11198,
+    "hospital_name": "รพ. เวียงแก่น",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11199,
+    "hospital_name": "รพ. ขุนตาล",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11200,
+    "hospital_name": "รพ. แม่ฟ้าหลวง",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11201,
+    "hospital_name": "รพ. แม่ลาว",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11202,
+    "hospital_name": "รพ. เวียงเชียงรุ้ง",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11454,
+    "hospital_name": "รพ. สมเด็จพระยุพราชเชียงของ",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 15012,
+    "hospital_name": "รพ. สมเด็จพระญาณสังวร",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 28823,
+    "hospital_name": "รพ. ดอยหลวง",
+    "province": "เชียงราย",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10713,
+    "hospital_name": "รพ. นครพิงค์",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11119,
+    "hospital_name": "รพ. จอมทอง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11120,
+    "hospital_name": "รพ. เทพรัตนเวชชานุกูล เฉลิมพระเกียรติ 60 พรรษา",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11121,
+    "hospital_name": "รพ. เชียงดาว",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11122,
+    "hospital_name": "รพ. ดอยสะเก็ด",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11123,
+    "hospital_name": "รพ. แม่แตง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11124,
+    "hospital_name": "รพ. สะเมิง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11125,
+    "hospital_name": "รพ. ฝาง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11126,
+    "hospital_name": "รพ. แม่อาย",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11127,
+    "hospital_name": "รพ. พร้าว",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11128,
+    "hospital_name": "รพ. สันป่าตอง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11129,
+    "hospital_name": "รพ. สันกำแพง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11130,
+    "hospital_name": "รพ. สันทราย",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11131,
+    "hospital_name": "รพ. หางดง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11132,
+    "hospital_name": "รพ. ฮอด",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11133,
+    "hospital_name": "รพ. ดอยเต่า",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11134,
+    "hospital_name": "รพ. อมก๋อย",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11135,
+    "hospital_name": "รพ. สารภี",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11136,
+    "hospital_name": "รพ. เวียงแหง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11137,
+    "hospital_name": "รพ. ไชยปราการ",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11138,
+    "hospital_name": "รพ. แม่วาง",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11139,
+    "hospital_name": "รพ. แม่ออน",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11643,
+    "hospital_name": "รพ. ดอยหล่อ",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 23736,
+    "hospital_name": "รพ. วัดจันทร์ เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10716,
+    "hospital_name": "รพ. น่าน",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11173,
+    "hospital_name": "รพ. แม่จริม",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11174,
+    "hospital_name": "รพ. บ้านหลวง",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11175,
+    "hospital_name": "รพ. นาน้อย",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11176,
+    "hospital_name": "รพ. ท่าวังผา",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11177,
+    "hospital_name": "รพ. เวียงสา",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11178,
+    "hospital_name": "รพ. ทุ่งช้าง",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11179,
+    "hospital_name": "รพ. เชียงกลาง",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11180,
+    "hospital_name": "รพ. นาหมื่น",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11181,
+    "hospital_name": "รพ. สันติสุข",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11182,
+    "hospital_name": "รพ. บ่อเกลือ",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11183,
+    "hospital_name": "รพ. สองแคว",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11453,
+    "hospital_name": "รพ. สมเด็จพระยุพราชปัว",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11625,
+    "hospital_name": "รพ. เฉลิมพระเกียรติ (น่าน)",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 25017,
+    "hospital_name": "รพ. ภูเพียง",
+    "province": "น่าน",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10717,
+    "hospital_name": "รพ. พะเยา",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10718,
+    "hospital_name": "รพ. เชียงคำ",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11184,
+    "hospital_name": "รพ. จุน",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11185,
+    "hospital_name": "รพ. เชียงม่วน",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11186,
+    "hospital_name": "รพ. ดอกคำใต้",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11187,
+    "hospital_name": "รพ. ปง",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11188,
+    "hospital_name": "รพ. แม่ใจ",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 40744,
+    "hospital_name": "รพ. ภูซาง",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 40745,
+    "hospital_name": "รพ. ภูกามยาว",
+    "province": "พะเยา",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10715,
+    "hospital_name": "รพ. แพร่",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11166,
+    "hospital_name": "รพ. ร้องกวาง",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11167,
+    "hospital_name": "รพ. ลอง",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11169,
+    "hospital_name": "รพ. สูงเม่น",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11170,
+    "hospital_name": "รพ. สอง",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11171,
+    "hospital_name": "รพ. วังชิ้น",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11172,
+    "hospital_name": "รพ. หนองม่วงไข่",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11452,
+    "hospital_name": "รพ. สมเด็จพระยุพราชเด่นชัย",
+    "province": "แพร่",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10719,
+    "hospital_name": "รพ. ศรีสังวาลย์",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11203,
+    "hospital_name": "รพ. ขุนยวม",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11204,
+    "hospital_name": "รพ. ปาย",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11205,
+    "hospital_name": "รพ. แม่สะเรียง",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11206,
+    "hospital_name": "รพ. แม่ลาน้อย",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11207,
+    "hospital_name": "รพ. สบเมย",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11208,
+    "hospital_name": "รพ. ปางมะผ้า",
+    "province": "แม่ฮ่องสอน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10672,
+    "hospital_name": "รพ. ลำปาง",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11146,
+    "hospital_name": "รพ. แม่เมาะ",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11147,
+    "hospital_name": "รพ. เกาะคา",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11148,
+    "hospital_name": "รพ. เสริมงาม",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11149,
+    "hospital_name": "รพ. งาว",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11150,
+    "hospital_name": "รพ. แจ้ห่ม",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11151,
+    "hospital_name": "รพ. วังเหนือ",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11152,
+    "hospital_name": "รพ. เถิน",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11153,
+    "hospital_name": "รพ. แม่พริก",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11154,
+    "hospital_name": "รพ. แม่ทะ",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11155,
+    "hospital_name": "รพ. สบปราบ",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11156,
+    "hospital_name": "รพ. ห้างฉัตร",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11157,
+    "hospital_name": "รพ. เมืองปาน",
+    "province": "ลำปาง",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10714,
+    "hospital_name": "รพ. ลำพูน",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11140,
+    "hospital_name": "รพ. แม่ทา",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11141,
+    "hospital_name": "รพ. บ้านโฮ่ง",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11142,
+    "hospital_name": "รพ. ลี้",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11143,
+    "hospital_name": "รพ. ทุ่งหัวช้าง",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11144,
+    "hospital_name": "รพ. ป่าซาง",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11145,
+    "hospital_name": "รพ. บ้านธิ",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 24956,
+    "hospital_name": "รพ. เวียงหนองล่อง",
+    "province": "ลำพูน",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10722,
+    "hospital_name": "รพ. สมเด็จพระเจ้าตากสินมหาราช",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10723,
+    "hospital_name": "รพ. แม่สอด",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11238,
+    "hospital_name": "รพ. บ้านตาก",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11239,
+    "hospital_name": "รพ. สามเงา",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11240,
+    "hospital_name": "รพ. แม่ระมาด",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11241,
+    "hospital_name": "รพ. ท่าสองยาง",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11242,
+    "hospital_name": "รพ. พบพระ",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11243,
+    "hospital_name": "รพ. อุ้มผาง",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 27443,
+    "hospital_name": "รพ. วังเจ้า",
+    "province": "ตาก",
+    "zone": 2,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10676,
+    "hospital_name": "รพ. พุทธชินราช",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "A",
+    "group": "รพศ.A B>1000"
+  },
+  {
+    "hospital_code": 11251,
+    "hospital_name": "รพ. ชาติตระการ",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11252,
+    "hospital_name": "รพ. บางระกำ",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11253,
+    "hospital_name": "รพ. บางกระทุ่ม",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11254,
+    "hospital_name": "รพ. พรหมพิราม",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11255,
+    "hospital_name": "รพ. วัดโบสถ์",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11256,
+    "hospital_name": "รพ. วังทอง",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11257,
+    "hospital_name": "รพ. เนินมะปราง",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11455,
+    "hospital_name": "รพ. สมเด็จพระยุพราชนครไทย",
+    "province": "พิษณุโลก",
+    "zone": 2,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10727,
+    "hospital_name": "รพ. เพชรบูรณ์",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11264,
+    "hospital_name": "รพ. ชนแดน",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11265,
+    "hospital_name": "รพ. หล่มสัก",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11266,
+    "hospital_name": "รพ. วิเชียรบุรี",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11267,
+    "hospital_name": "รพ. ศรีเทพ",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11268,
+    "hospital_name": "รพ. หนองไผ่",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11269,
+    "hospital_name": "รพ. บึงสามพัน",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11270,
+    "hospital_name": "รพ. น้ำหนาว",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11271,
+    "hospital_name": "รพ. วังโป่ง",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11272,
+    "hospital_name": "รพ. เขาค้อ",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11457,
+    "hospital_name": "รพ. สมเด็จพระยุพราชหล่มเก่า",
+    "province": "เพชรบูรณ์",
+    "zone": 2,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10724,
+    "hospital_name": "รพ. สุโขทัย",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10725,
+    "hospital_name": "รพ. ศรีสังวรสุโขทัย",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11244,
+    "hospital_name": "รพ. บ้านด่านลานหอย",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11245,
+    "hospital_name": "รพ. คีรีมาศ",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11246,
+    "hospital_name": "รพ. กงไกรลาศ",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11247,
+    "hospital_name": "รพ. ศรีสัชนาลัย",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11248,
+    "hospital_name": "รพ. สวรรคโลก",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11249,
+    "hospital_name": "รพ. ศรีนคร",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11250,
+    "hospital_name": "รพ. ทุ่งเสลี่ยม",
+    "province": "สุโขทัย",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10673,
+    "hospital_name": "รพ. อุตรดิตถ์",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 11158,
+    "hospital_name": "รพ. ตรอน",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11159,
+    "hospital_name": "รพ. ท่าปลา",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11160,
+    "hospital_name": "รพ. น้ำปาด",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11161,
+    "hospital_name": "รพ. ฟากท่า",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11162,
+    "hospital_name": "รพ. บ้านโคก",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11163,
+    "hospital_name": "รพ. พิชัย",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11164,
+    "hospital_name": "รพ. ลับแล",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11165,
+    "hospital_name": "รพ. ทองแสนขัน",
+    "province": "อุตรดิตถ์",
+    "zone": 2,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10721,
+    "hospital_name": "รพ. กำแพงเพชร",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11228,
+    "hospital_name": "รพ. ทุ่งโพธิ์ทะเล",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11229,
+    "hospital_name": "รพ. ไทรงาม",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11230,
+    "hospital_name": "รพ. คลองลาน",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11231,
+    "hospital_name": "รพ. ขาณุวรลักษบุรี",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11232,
+    "hospital_name": "รพ. คลองขลุง",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11233,
+    "hospital_name": "รพ. พรานกระต่าย",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11234,
+    "hospital_name": "รพ. ลานกระบือ",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11235,
+    "hospital_name": "รพ. ทรายทองวัฒนา",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11236,
+    "hospital_name": "รพ. ปางศิลาทอง",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 14135,
+    "hospital_name": "รพ. บึงสามัคคี",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28010,
+    "hospital_name": "รพ. โกสัมพีนคร",
+    "province": "กำแพงเพชร",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 10694,
+    "hospital_name": "รพ. ชัยนาทนเรนทร",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10802,
+    "hospital_name": "รพ. มโนรมย์",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10803,
+    "hospital_name": "รพ. วัดสิงห์",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10804,
+    "hospital_name": "รพ. สรรพยา",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10805,
+    "hospital_name": "รพ. สรรคบุรี",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10806,
+    "hospital_name": "รพ. หันคา",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 27974,
+    "hospital_name": "รพ. หนองมะโมง",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 27975,
+    "hospital_name": "รพ. เนินขาม",
+    "province": "ชัยนาท",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10675,
+    "hospital_name": "รพ. สวรรค์ประชารักษ์ แห่งใหม่",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11209,
+    "hospital_name": "รพ. โกรกพระ",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11210,
+    "hospital_name": "รพ. ชุมแสง",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11211,
+    "hospital_name": "รพ. หนองบัว",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11212,
+    "hospital_name": "รพ. บรรพตพิสัย",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11213,
+    "hospital_name": "รพ. เก้าเลี้ยว",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11214,
+    "hospital_name": "รพ. ตาคลี",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11215,
+    "hospital_name": "รพ. ท่าตะโก",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11216,
+    "hospital_name": "รพ. ไพศาลี",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11217,
+    "hospital_name": "รพ. พยุหะคีรี",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11218,
+    "hospital_name": "รพ. ลาดยาว",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11219,
+    "hospital_name": "รพ. ตากฟ้า",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11220,
+    "hospital_name": "รพ. แม่วงก์",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 40749,
+    "hospital_name": "รพ. ชุมตาบง",
+    "province": "นครสวรรค์",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 10726,
+    "hospital_name": "รพ. พิจิตร",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11258,
+    "hospital_name": "รพ. วังทรายพูน",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11259,
+    "hospital_name": "รพ. โพธิ์ประทับช้าง",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11260,
+    "hospital_name": "รพ. บางมูลนาก",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11261,
+    "hospital_name": "รพ. โพทะเล",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11262,
+    "hospital_name": "รพ. สามง่าม",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11263,
+    "hospital_name": "รพ. ทับคล้อ",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11456,
+    "hospital_name": "รพ. สมเด็จพระยุพราชตะพานหิน",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11631,
+    "hospital_name": "รพ. วชิรบารมี",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27978,
+    "hospital_name": "รพ. สากเหล็ก",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 27979,
+    "hospital_name": "รพ. บึงนาราง",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 27980,
+    "hospital_name": "รพ. ดงเจริญ",
+    "province": "พิจิตร",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10720,
+    "hospital_name": "รพ. อุทัยธานี",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11221,
+    "hospital_name": "รพ. ทัพทัน",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11222,
+    "hospital_name": "รพ. สว่างอารมณ์",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11223,
+    "hospital_name": "รพ. หนองฉาง",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11224,
+    "hospital_name": "รพ. หนองขาหย่าง",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11225,
+    "hospital_name": "รพ. บ้านไร่",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11226,
+    "hospital_name": "รพ. ลานสัก",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11227,
+    "hospital_name": "รพ. ห้วยคต",
+    "province": "อุทัยธานี",
+    "zone": 3,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10698,
+    "hospital_name": "รพ. นครนายก",
+    "province": "นครนายก",
+    "zone": 4,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10863,
+    "hospital_name": "รพ. ปากพลี",
+    "province": "นครนายก",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10864,
+    "hospital_name": "รพ. บ้านนา",
+    "province": "นครนายก",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10865,
+    "hospital_name": "รพ. องครักษ์",
+    "province": "นครนายก",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10686,
+    "hospital_name": "รพ. พระนั่งเกล้า",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10756,
+    "hospital_name": "รพ. บางกรวย",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10757,
+    "hospital_name": "รพ. บางใหญ่",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10758,
+    "hospital_name": "รพ. บางบัวทอง",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10759,
+    "hospital_name": "รพ. ไทรน้อย",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10760,
+    "hospital_name": "รพ. ปากเกร็ด",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 28875,
+    "hospital_name": "รพ. พิมลราช",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10687,
+    "hospital_name": "รพ. ปทุมธานี",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10761,
+    "hospital_name": "รพ. คลองหลวง",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10762,
+    "hospital_name": "รพ. ธัญบุรี",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10763,
+    "hospital_name": "รพ. ประชาธิปัตย์",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10764,
+    "hospital_name": "รพ. หนองเสือ",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10765,
+    "hospital_name": "รพ. ลาดหลุมแก้ว",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10766,
+    "hospital_name": "รพ. ลำลูกกา",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10767,
+    "hospital_name": "รพ. สามโคก",
+    "province": "ปทุมธานี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10660,
+    "hospital_name": "รพ. พระนครศรีอยุธยา",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 10688,
+    "hospital_name": "รพ. เสนา",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10768,
+    "hospital_name": "รพ. ท่าเรือ",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10769,
+    "hospital_name": "รพ. สมเด็จพระสังฆราชเจ้า กรมหลวงชินวราลงกรณ (วาสนมหาเถร)",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10770,
+    "hospital_name": "รพ. บางไทร (พระนครศรีอยุธยา)",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10771,
+    "hospital_name": "รพ. บางบาล",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10772,
+    "hospital_name": "รพ. บางปะอิน",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 10773,
+    "hospital_name": "รพ. บางปะหัน",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10774,
+    "hospital_name": "รพ. ผักไห่",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10775,
+    "hospital_name": "รพ. ภาชี",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10776,
+    "hospital_name": "รพ. ลาดบัวหลวง",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10777,
+    "hospital_name": "รพ. วังน้อย",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10778,
+    "hospital_name": "รพ. บางซ้าย",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10779,
+    "hospital_name": "รพ. อุทัย",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10780,
+    "hospital_name": "รพ. มหาราช",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10781,
+    "hospital_name": "รพ. บ้านแพรก",
+    "province": "พระนครศรีอยุธยา",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10690,
+    "hospital_name": "รพ. พระนารายณ์มหาราช",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10691,
+    "hospital_name": "รพ. บ้านหมี่",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10789,
+    "hospital_name": "รพ. พัฒนานิคม",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10790,
+    "hospital_name": "รพ. โคกสำโรง",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10791,
+    "hospital_name": "รพ. ชัยบาดาล",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10792,
+    "hospital_name": "รพ. ท่าวุ้ง",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10793,
+    "hospital_name": "รพ. ท่าหลวง",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10794,
+    "hospital_name": "รพ. สระโบสถ์",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10795,
+    "hospital_name": "รพ. โคกเจริญ",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10796,
+    "hospital_name": "รพ. ลำสนธิ",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10797,
+    "hospital_name": "รพ. หนองม่วง",
+    "province": "ลพบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10661,
+    "hospital_name": "รพ. สระบุรี",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 10695,
+    "hospital_name": "รพ. พระพุทธบาท",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10807,
+    "hospital_name": "รพ. แก่งคอย",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10808,
+    "hospital_name": "รพ. หนองแค",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10809,
+    "hospital_name": "รพ. วิหารแดง",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10810,
+    "hospital_name": "รพ. หนองแซง",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10811,
+    "hospital_name": "รพ. บ้านหมอ",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10812,
+    "hospital_name": "รพ. ดอนพุด",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10813,
+    "hospital_name": "รพ. หนองโดน",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10814,
+    "hospital_name": "รพ. เสาไห้เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10815,
+    "hospital_name": "รพ. มวกเหล็ก",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10816,
+    "hospital_name": "รพ. วังม่วงสัทธรรม",
+    "province": "สระบุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10692,
+    "hospital_name": "รพ. สิงห์บุรี",
+    "province": "สิงห์บุรี",
+    "zone": 4,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10693,
+    "hospital_name": "รพ. อินทร์บุรี",
+    "province": "สิงห์บุรี",
+    "zone": 4,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10798,
+    "hospital_name": "รพ. บางระจัน",
+    "province": "สิงห์บุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10799,
+    "hospital_name": "รพ. ค่ายบางระจัน",
+    "province": "สิงห์บุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10800,
+    "hospital_name": "รพ. พรหมบุรี",
+    "province": "สิงห์บุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10801,
+    "hospital_name": "รพ. ท่าช้าง",
+    "province": "สิงห์บุรี",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10689,
+    "hospital_name": "รพ. อ่างทอง",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10782,
+    "hospital_name": "รพ. ไชโย",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10784,
+    "hospital_name": "รพ. ป่าโมก",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10785,
+    "hospital_name": "รพ. โพธิ์ทอง",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10786,
+    "hospital_name": "รพ. แสวงหา",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10787,
+    "hospital_name": "รพ. วิเศษชัยชาญ",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10788,
+    "hospital_name": "รพ. สามโก้",
+    "province": "อ่างทอง",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10731,
+    "hospital_name": "รพ. พหลพลพยุหเสนา",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "S",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 10732,
+    "hospital_name": "รพ. มะการักษ์",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11278,
+    "hospital_name": "รพ. ไทรโยค",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11279,
+    "hospital_name": "รพ. สมเด็จพระปิยมหาราชรมณียเขต",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11280,
+    "hospital_name": "รพ. บ่อพลอย",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11281,
+    "hospital_name": "รพ. ท่ากระดาน",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11282,
+    "hospital_name": "รพ. สมเด็จพระสังฆราชองค์ที่ 19",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11283,
+    "hospital_name": "รพ. ทองผาภูมิ",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11284,
+    "hospital_name": "รพ. สังขละบุรี",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11285,
+    "hospital_name": "รพ. เจ้าคุณไพบูลย์พนมทวน",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11286,
+    "hospital_name": "รพ. เลาขวัญ",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11287,
+    "hospital_name": "รพ. ด่านมะขามเตี้ย",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11288,
+    "hospital_name": "รพ. สถานพระบารมี",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 14136,
+    "hospital_name": "รพ. ศุกร์ศิริศรีสวัสดิ์",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 21948,
+    "hospital_name": "รพ. ห้วยกระเจา เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10679,
+    "hospital_name": "รพ. นครปฐม",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11297,
+    "hospital_name": "รพ. กำแพงแสน",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11298,
+    "hospital_name": "รพ. นครชัยศรี",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11299,
+    "hospital_name": "รพ. ห้วยพลู",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11300,
+    "hospital_name": "รพ. ดอนตูม",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11301,
+    "hospital_name": "รพ. บางเลน",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11302,
+    "hospital_name": "รพ. สามพราน",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11303,
+    "hospital_name": "รพ. พุทธมณฑล",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 13819,
+    "hospital_name": "รพ. หลวงพ่อเปิ่น",
+    "province": "นครปฐม",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10737,
+    "hospital_name": "รพ. ประจวบคีรีขันธ์",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11315,
+    "hospital_name": "รพ. กุยบุรี",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11316,
+    "hospital_name": "รพ. ทับสะแก",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11317,
+    "hospital_name": "รพ. บางสะพาน",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11318,
+    "hospital_name": "รพ. บางสะพานน้อย",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11319,
+    "hospital_name": "รพ. ปราณบุรี",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11320,
+    "hospital_name": "รพ. หัวหิน",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11321,
+    "hospital_name": "รพ. สามร้อยยอด",
+    "province": "ประจวบคีรีขันธ์",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10736,
+    "hospital_name": "รพ. พระจอมเกล้า",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11308,
+    "hospital_name": "รพ. เขาย้อย",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11309,
+    "hospital_name": "รพ. หนองหญ้าปล้อง",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11310,
+    "hospital_name": "รพ. ชะอำ",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11311,
+    "hospital_name": "รพ. ท่ายาง",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11312,
+    "hospital_name": "รพ. บ้านลาด",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11313,
+    "hospital_name": "รพ. บ้านแหลม",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11314,
+    "hospital_name": "รพ. แก่งกระจาน",
+    "province": "เพชรบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10677,
+    "hospital_name": "รพ. ราชบุรี",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10728,
+    "hospital_name": "รพ. สมเด็จพระสังฆราช (อมฺพรมหาเถร)",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10729,
+    "hospital_name": "รพ. บ้านโป่ง",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10730,
+    "hospital_name": "รพ. โพธาราม",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11273,
+    "hospital_name": "รพ. สวนผึ้ง",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11274,
+    "hospital_name": "รพ. บางแพ",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11275,
+    "hospital_name": "รพ. เจ็ดเสมียน",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11276,
+    "hospital_name": "รพ. ปากท่อ",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11277,
+    "hospital_name": "รพ. วัดเพลง",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11458,
+    "hospital_name": "รพ. สมเด็จพระยุพราชจอมบึง",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 28858,
+    "hospital_name": "รพ. บ้านคา",
+    "province": "ราชบุรี",
+    "zone": 5,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 10735,
+    "hospital_name": "รพ. สมเด็จพระพุทธเลิศหล้า",
+    "province": "สมุทรสงคราม",
+    "zone": 5,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11306,
+    "hospital_name": "รพ. นภาลัย",
+    "province": "สมุทรสงคราม",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11307,
+    "hospital_name": "รพ. อัมพวา",
+    "province": "สมุทรสงคราม",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10734,
+    "hospital_name": "รพ. สมุทรสาคร",
+    "province": "สมุทรสาคร",
+    "zone": 5,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11304,
+    "hospital_name": "รพ. กระทุ่มแบน",
+    "province": "สมุทรสาคร",
+    "zone": 5,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10678,
+    "hospital_name": "รพ. เจ้าพระยายมราช",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10733,
+    "hospital_name": "รพ. สมเด็จพระสังฆราชองค์ที่ 17",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11289,
+    "hospital_name": "รพ. เดิมบางนางบวช",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11290,
+    "hospital_name": "รพ. ด่านช้าง",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11291,
+    "hospital_name": "รพ. บางปลาม้า",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11292,
+    "hospital_name": "รพ. ศรีประจันต์",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11293,
+    "hospital_name": "รพ. ดอนเจดีย์",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11294,
+    "hospital_name": "รพ. สามชุก",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11295,
+    "hospital_name": "รพ. อู่ทอง",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11296,
+    "hospital_name": "รพ. หนองหญ้าไซ",
+    "province": "สุพรรณบุรี",
+    "zone": 5,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10664,
+    "hospital_name": "รพ. พระปกเกล้า",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10834,
+    "hospital_name": "รพ. ขลุง",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10835,
+    "hospital_name": "รพ. ท่าใหม่",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10836,
+    "hospital_name": "รพ. เขาสุกิม",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10837,
+    "hospital_name": "รพ. สองพี่น้อง",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10838,
+    "hospital_name": "รพ. โป่งน้ำร้อน",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10839,
+    "hospital_name": "รพ. มะขาม",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10840,
+    "hospital_name": "รพ. แหลมสิงห์",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10841,
+    "hospital_name": "รพ. สอยดาว",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10842,
+    "hospital_name": "รพ. แก่งหางแมว",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10843,
+    "hospital_name": "รพ. นายายอาม",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10844,
+    "hospital_name": "รพ. เขาคิชฌกูฏ",
+    "province": "จันทบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10697,
+    "hospital_name": "รพ. พุทธโสธร",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 10833,
+    "hospital_name": "รพ. ท่าตะเกียบ",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10850,
+    "hospital_name": "รพ. บางคล้า",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10851,
+    "hospital_name": "รพ. บางน้ำเปรี้ยว",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10852,
+    "hospital_name": "รพ. บางปะกง",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10853,
+    "hospital_name": "รพ. บ้านโพธิ์",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10854,
+    "hospital_name": "รพ. พนมสารคาม",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10855,
+    "hospital_name": "รพ. สนามชัยเขต",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10856,
+    "hospital_name": "รพ. แปลงยาว",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 13747,
+    "hospital_name": "รพ. ราชสาส์น",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 31327,
+    "hospital_name": "รพ. คลองเขื่อน",
+    "province": "ฉะเชิงเทรา",
+    "zone": 6,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10662,
+    "hospital_name": "รพ. ชลบุรี",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10817,
+    "hospital_name": "รพ. บ้านบึง",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10818,
+    "hospital_name": "รพ. หนองใหญ่",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10819,
+    "hospital_name": "รพ. พัทยาปัทมคุณ",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10820,
+    "hospital_name": "รพ. วัดญาณสังวราราม",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10821,
+    "hospital_name": "รพ. พานทอง",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10822,
+    "hospital_name": "รพ. พนัสนิคม",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10823,
+    "hospital_name": "รพ. แหลมฉบัง",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10824,
+    "hospital_name": "รพ. เกาะสีชัง",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10825,
+    "hospital_name": "รพ. สัตหีบ",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10826,
+    "hospital_name": "รพ. บ่อทอง",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 28006,
+    "hospital_name": "รพ. เกาะจันทร์",
+    "province": "ชลบุรี",
+    "zone": 6,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10696,
+    "hospital_name": "รพ. พระปิยมหาราช",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10845,
+    "hospital_name": "รพ. คลองใหญ่",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10846,
+    "hospital_name": "รพ. เขาสมิง",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10847,
+    "hospital_name": "รพ. บ่อไร่",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10848,
+    "hospital_name": "รพ. แหลมงอบ",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10849,
+    "hospital_name": "รพ. เกาะกูด",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 13816,
+    "hospital_name": "รพ. เกาะช้าง",
+    "province": "ตราด",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10665,
+    "hospital_name": "รพ. เจ้าพระยาอภัยภูเบศร",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 10857,
+    "hospital_name": "รพ. กบินทร์บุรี",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10858,
+    "hospital_name": "รพ. นาดี",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10859,
+    "hospital_name": "รพ. บ้านสร้าง",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10860,
+    "hospital_name": "รพ. ประจันตคาม",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10861,
+    "hospital_name": "รพ. ศรีมหาโพธิ",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10862,
+    "hospital_name": "รพ. ศรีมโหสถ",
+    "province": "ปราจีนบุรี",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10663,
+    "hospital_name": "รพ. ระยอง",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10827,
+    "hospital_name": "รพ. เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี ระยอง",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10828,
+    "hospital_name": "รพ. บ้านฉาง",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10829,
+    "hospital_name": "รพ. แกลง",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10830,
+    "hospital_name": "รพ. วังจันทร์",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10831,
+    "hospital_name": "รพ. บ้านค่าย",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10832,
+    "hospital_name": "รพ. ปลวกแดง",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 22734,
+    "hospital_name": "รพ. เขาชะเมา เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 23962,
+    "hospital_name": "รพ. นิคมพัฒนา",
+    "province": "ระยอง",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10685,
+    "hospital_name": "รพ. สมุทรปราการ",
+    "province": "สมุทรปราการ",
+    "zone": 6,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10752,
+    "hospital_name": "รพ. บางบ่อ",
+    "province": "สมุทรปราการ",
+    "zone": 6,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10753,
+    "hospital_name": "รพ. บางพลี",
+    "province": "สมุทรปราการ",
+    "zone": 6,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10754,
+    "hospital_name": "รพ. บางจาก",
+    "province": "สมุทรปราการ",
+    "zone": 6,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10755,
+    "hospital_name": "รพ. พระสมุทรเจดีย์สวาทยานนท์",
+    "province": "สมุทรปราการ",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 28785,
+    "hospital_name": "รพ. บางเสาธง",
+    "province": "สมุทรปราการ",
+    "zone": 6,
+    "type": "F3",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10699,
+    "hospital_name": "รพ. สมเด็จพระยุพราชสระแก้ว",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10866,
+    "hospital_name": "รพ. คลองหาด",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10867,
+    "hospital_name": "รพ. ตาพระยา",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10868,
+    "hospital_name": "รพ. วังน้ำเย็น",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10869,
+    "hospital_name": "รพ. วัฒนานคร",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10870,
+    "hospital_name": "รพ. อรัญประเทศ",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 13817,
+    "hospital_name": "รพ. เขาฉกรรจ์",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 28849,
+    "hospital_name": "รพ. วังสมบูรณ์",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28850,
+    "hospital_name": "รพ. โคกสูง",
+    "province": "สระแก้ว",
+    "zone": 6,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10709,
+    "hospital_name": "รพ. กาฬสินธุ์",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11077,
+    "hospital_name": "รพ. นามน",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11078,
+    "hospital_name": "รพ. กมลาไสย",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11079,
+    "hospital_name": "รพ. ร่องคำ",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11080,
+    "hospital_name": "รพ. เขาวง",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11081,
+    "hospital_name": "รพ. ยางตลาด",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11082,
+    "hospital_name": "รพ. ห้วยเม็ก",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11083,
+    "hospital_name": "รพ. สหัสขันธ์",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11084,
+    "hospital_name": "รพ. คำม่วง",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11085,
+    "hospital_name": "รพ. ท่าคันโท",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11086,
+    "hospital_name": "รพ. หนองกุงศรี",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11087,
+    "hospital_name": "รพ. สมเด็จ",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11088,
+    "hospital_name": "รพ. ห้วยผึ้ง",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11449,
+    "hospital_name": "รพ. สมเด็จพระยุพราชกุฉินารายณ์",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 28017,
+    "hospital_name": "รพ. นาคู",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28789,
+    "hospital_name": "รพ. ฆ้องชัย",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 28790,
+    "hospital_name": "รพ. ดอนจาน",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 28791,
+    "hospital_name": "รพ. สามชัย",
+    "province": "กาฬสินธุ์",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10670,
+    "hospital_name": "รพ. ขอนแก่น",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "A",
+    "group": "รพศ.A B>1000"
+  },
+  {
+    "hospital_code": 10995,
+    "hospital_name": "รพ. บ้านฝาง",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10996,
+    "hospital_name": "รพ. พระยืน",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10997,
+    "hospital_name": "รพ. หนองเรือ",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10998,
+    "hospital_name": "รพ. ชุมแพ",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10999,
+    "hospital_name": "รพ. สีชมพู",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11000,
+    "hospital_name": "รพ. น้ำพอง",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11001,
+    "hospital_name": "รพ. อุบลรัตน์",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11002,
+    "hospital_name": "รพ. บ้านไผ่",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11003,
+    "hospital_name": "รพ. เปือยน้อย",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11004,
+    "hospital_name": "รพ. พล",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11005,
+    "hospital_name": "รพ. แวงใหญ่",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11006,
+    "hospital_name": "รพ. แวงน้อย",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11007,
+    "hospital_name": "รพ. หนองสองห้อง",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11008,
+    "hospital_name": "รพ. ภูเวียง",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11009,
+    "hospital_name": "รพ. มัญจาคีรี",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11010,
+    "hospital_name": "รพ. ชนบท",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11011,
+    "hospital_name": "รพ. เขาสวนกวาง",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11012,
+    "hospital_name": "รพ. ภูผาม่าน",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11445,
+    "hospital_name": "รพ. สมเด็จพระยุพราชกระนวน",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 12275,
+    "hospital_name": "รพ. สิรินธร จังหวัดขอนแก่น",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 14132,
+    "hospital_name": "รพ. ซำสูง",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 77649,
+    "hospital_name": "รพ. หนองนาคำ",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 77650,
+    "hospital_name": "รพ. เวียงเก่า",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 77651,
+    "hospital_name": "รพ. โคกโพธิ์ไชย",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 77652,
+    "hospital_name": "รพ. โนนศิลา",
+    "province": "ขอนแก่น",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 10707,
+    "hospital_name": "รพ. มหาสารคาม",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11051,
+    "hospital_name": "รพ. แกดำ",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11052,
+    "hospital_name": "รพ. โกสุมพิสัย",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11053,
+    "hospital_name": "รพ. กันทรวิชัย",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11054,
+    "hospital_name": "รพ. เชียงยืน",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11055,
+    "hospital_name": "รพ. บรบือ",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11056,
+    "hospital_name": "รพ. นาเชือก",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11057,
+    "hospital_name": "รพ. พยัคฆภูมิพิสัย",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11058,
+    "hospital_name": "รพ. วาปีปทุม",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11059,
+    "hospital_name": "รพ. นาดูน",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11060,
+    "hospital_name": "รพ. ยางสีสุราช",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 24704,
+    "hospital_name": "รพ. กุดรัง",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28843,
+    "hospital_name": "รพ. ชื่นชม",
+    "province": "มหาสารคาม",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10708,
+    "hospital_name": "รพ. ร้อยเอ็ด",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11061,
+    "hospital_name": "รพ. เกษตรวิสัย",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11062,
+    "hospital_name": "รพ. ปทุมรัตต์",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11063,
+    "hospital_name": "รพ. จตุรพักตรพิมาน",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11064,
+    "hospital_name": "รพ. ธวัชบุรี",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11065,
+    "hospital_name": "รพ. พนมไพร",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11066,
+    "hospital_name": "รพ. โพนทอง",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11067,
+    "hospital_name": "รพ. โพธิ์ชัย",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11068,
+    "hospital_name": "รพ. หนองพอก",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11069,
+    "hospital_name": "รพ. เสลภูมิ",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11070,
+    "hospital_name": "รพ. สุวรรณภูมิ",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11071,
+    "hospital_name": "รพ. เมืองสรวง",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11072,
+    "hospital_name": "รพ. โพนทราย",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11073,
+    "hospital_name": "รพ. อาจสามารถ",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11074,
+    "hospital_name": "รพ. เมยวดี",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11075,
+    "hospital_name": "รพ. ศรีสมเด็จ",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11076,
+    "hospital_name": "รพ. จังหาร",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27988,
+    "hospital_name": "รพ. ทุ่งเขาหลวง",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 27989,
+    "hospital_name": "รพ. เชียงขวัญ",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 27990,
+    "hospital_name": "รพ. หนองฮี",
+    "province": "ร้อยเอ็ด",
+    "zone": 7,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10711,
+    "hospital_name": "รพ. นครพนม",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11104,
+    "hospital_name": "รพ. ปลาปาก",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11105,
+    "hospital_name": "รพ. ท่าอุเทน",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11106,
+    "hospital_name": "รพ. บ้านแพง",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11107,
+    "hospital_name": "รพ. นาทม",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11108,
+    "hospital_name": "รพ. เรณูนคร",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11109,
+    "hospital_name": "รพ. นาแก",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11110,
+    "hospital_name": "รพ. ศรีสงคราม",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11111,
+    "hospital_name": "รพ. นาหว้า",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11112,
+    "hospital_name": "รพ. โพนสวรรค์",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11451,
+    "hospital_name": "รพ. สมเด็จพระยุพราชธาตุพนม",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 40840,
+    "hospital_name": "รพ. วังยาง",
+    "province": "นครพนม",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11040,
+    "hospital_name": "รพ. บึงกาฬ",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11041,
+    "hospital_name": "รพ. พรเจริญ",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11043,
+    "hospital_name": "รพ. โซ่พิสัย",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11046,
+    "hospital_name": "รพ. เซกา",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11047,
+    "hospital_name": "รพ. ปากคาด",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11048,
+    "hospital_name": "รพ. บึงโขงหลง",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11049,
+    "hospital_name": "รพ. ศรีวิไล",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11050,
+    "hospital_name": "รพ. บุ่งคล้า",
+    "province": "บึงกาฬ",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10705,
+    "hospital_name": "รพ. เลย",
+    "province": "เลย",
+    "zone": 8,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11030,
+    "hospital_name": "รพ. นาด้วง",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11031,
+    "hospital_name": "รพ. เชียงคาน",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11032,
+    "hospital_name": "รพ. ปากชม",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11033,
+    "hospital_name": "รพ. นาแห้ว",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11034,
+    "hospital_name": "รพ. ภูเรือ",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11035,
+    "hospital_name": "รพ. ท่าลี่",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11036,
+    "hospital_name": "รพ. วังสะพุง",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11037,
+    "hospital_name": "รพ. ภูกระดึง",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11038,
+    "hospital_name": "รพ. ภูหลวง",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11039,
+    "hospital_name": "รพ. ผาขาว",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11447,
+    "hospital_name": "รพ. สมเด็จพระยุพราชด่านซ้าย",
+    "province": "เลย",
+    "zone": 8,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 14133,
+    "hospital_name": "รพ. เอราวัณ",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 28861,
+    "hospital_name": "รพ. หนองหิน",
+    "province": "เลย",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10710,
+    "hospital_name": "รพ. สกลนคร",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11089,
+    "hospital_name": "รพ. กุสุมาลย์",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11090,
+    "hospital_name": "รพ. กุดบาก",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11091,
+    "hospital_name": "รพ. พระอาจารย์ฝั้นอาจาโร",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11092,
+    "hospital_name": "รพ. พังโคน",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11093,
+    "hospital_name": "รพ. วาริชภูมิ",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11094,
+    "hospital_name": "รพ. นิคมน้ำอูน",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11095,
+    "hospital_name": "รพ. วานรนิวาส",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11096,
+    "hospital_name": "รพ. คำตากล้า",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11097,
+    "hospital_name": "รพ. พระอาจารย์มั่น ภูริทัตโต",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11098,
+    "hospital_name": "รพ. อากาศอำนวย",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11099,
+    "hospital_name": "รพ. พระอาจารย์วัน อุตฺตโม",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11100,
+    "hospital_name": "รพ. เต่างอย",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11101,
+    "hospital_name": "รพ. โคกศรีสุพรรณ",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11102,
+    "hospital_name": "รพ. เจริญศิลป์",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11103,
+    "hospital_name": "รพ. โพนนาแก้ว",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11450,
+    "hospital_name": "รพ. สมเด็จพระยุพราชสว่างแดนดิน",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 21323,
+    "hospital_name": "รพ. พระอาจารย์แบน  ธนากโร",
+    "province": "สกลนคร",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10706,
+    "hospital_name": "รพ. หนองคาย",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11042,
+    "hospital_name": "รพ. โพนพิสัย",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11044,
+    "hospital_name": "รพ. ศรีเชียงใหม่",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11045,
+    "hospital_name": "รพ. สังคม",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11448,
+    "hospital_name": "รพ. สมเด็จพระยุพราชท่าบ่อ",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 21356,
+    "hospital_name": "รพ. สระใคร",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28778,
+    "hospital_name": "รพ. โพธิ์ตาก",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 28811,
+    "hospital_name": "รพ. เฝ้าไร่",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 28815,
+    "hospital_name": "รพ. รัตนวาปี",
+    "province": "หนองคาย",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10704,
+    "hospital_name": "รพ. หนองบัวลำภู",
+    "province": "หนองบัวลำภู",
+    "zone": 8,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10991,
+    "hospital_name": "รพ. นากลาง",
+    "province": "หนองบัวลำภู",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10992,
+    "hospital_name": "รพ. โนนสัง",
+    "province": "หนองบัวลำภู",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10993,
+    "hospital_name": "รพ. ศรีบุญเรือง",
+    "province": "หนองบัวลำภู",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 10994,
+    "hospital_name": "รพ. สุวรรณคูหา",
+    "province": "หนองบัวลำภู",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 23367,
+    "hospital_name": "รพ. นาวัง เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "หนองบัวลำภู",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10671,
+    "hospital_name": "รพ. อุดรธานี",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "A",
+    "group": "รพศ.A B>1000"
+  },
+  {
+    "hospital_code": 11013,
+    "hospital_name": "รพ. กุดจับ",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11014,
+    "hospital_name": "รพ. หนองวัวซอ",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11015,
+    "hospital_name": "รพ. กุมภวาปี",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11016,
+    "hospital_name": "รพ. ห้วยเกิ้ง",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11017,
+    "hospital_name": "รพ. โนนสะอาด",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11018,
+    "hospital_name": "รพ. หนองหาน",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11019,
+    "hospital_name": "รพ. ทุ่งฝน",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11020,
+    "hospital_name": "รพ. ไชยวาน",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11021,
+    "hospital_name": "รพ. ศรีธาตุ",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11022,
+    "hospital_name": "รพ. วังสามหมอ",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11023,
+    "hospital_name": "รพ. บ้านผือ",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11024,
+    "hospital_name": "รพ. น้ำโสม",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11025,
+    "hospital_name": "รพ. เพ็ญ",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11026,
+    "hospital_name": "รพ. สร้างคอม",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11027,
+    "hospital_name": "รพ. หนองแสง",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11028,
+    "hospital_name": "รพ. นายูง",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11029,
+    "hospital_name": "รพ. พิบูลย์รักษ์",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11446,
+    "hospital_name": "รพ. สมเด็จพระยุพราชบ้านดุง",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 25058,
+    "hospital_name": "รพ. กู่แก้ว",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 25059,
+    "hospital_name": "รพ. ประจักษ์ศิลปาคม",
+    "province": "อุดรธานี",
+    "zone": 8,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 4007,
+    "hospital_name": "ซับใหญ่,รพช.",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10702,
+    "hospital_name": "รพ. ชัยภูมิ",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "S",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10970,
+    "hospital_name": "รพ. บ้านเขว้า",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10971,
+    "hospital_name": "รพ. คอนสวรรค์",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10972,
+    "hospital_name": "รพ. เกษตรสมบูรณ์",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10973,
+    "hospital_name": "รพ. หนองบัวแดง",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10974,
+    "hospital_name": "รพ. จัตุรัส",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10975,
+    "hospital_name": "รพ. บำเหน็จณรงค์",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10976,
+    "hospital_name": "รพ. หนองบัวระเหว",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10977,
+    "hospital_name": "รพ. เทพสถิต",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10978,
+    "hospital_name": "รพ. ภูเขียวเฉลิมพระเกียรติ",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10979,
+    "hospital_name": "รพ. บ้านแท่น",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10980,
+    "hospital_name": "รพ. แก้งคร้อ",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10981,
+    "hospital_name": "รพ. คอนสาร",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10982,
+    "hospital_name": "รพ. ภักดีชุมพล",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10983,
+    "hospital_name": "รพ. เนินสง่า",
+    "province": "ชัยภูมิ",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10666,
+    "hospital_name": "รพ. มหาราชนครราชสีมา",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "A",
+    "group": "รพศ.A B>1000"
+  },
+  {
+    "hospital_code": 10871,
+    "hospital_name": "รพ. ครบุรี",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10872,
+    "hospital_name": "รพ. เสิงสาง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10873,
+    "hospital_name": "รพ. คง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10874,
+    "hospital_name": "รพ. บ้านเหลื่อม",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10875,
+    "hospital_name": "รพ. จักราช",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10876,
+    "hospital_name": "รพ. โชคชัย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10877,
+    "hospital_name": "รพ. หลวงพ่อคูณ ปริสุทฺโธ",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10878,
+    "hospital_name": "รพ. โนนไทย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10879,
+    "hospital_name": "รพ. โนนสูง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 10880,
+    "hospital_name": "รพ. ขามสะแกแสง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10881,
+    "hospital_name": "รพ. บัวใหญ่",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10882,
+    "hospital_name": "รพ. ประทาย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10883,
+    "hospital_name": "รพ. ปักธงชัย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10884,
+    "hospital_name": "รพ. พิมาย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10885,
+    "hospital_name": "รพ. ห้วยแถลง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10886,
+    "hospital_name": "รพ. ชุมพวง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10887,
+    "hospital_name": "รพ. สูงเนิน",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10888,
+    "hospital_name": "รพ. ขามทะเลสอ",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10889,
+    "hospital_name": "รพ. สีคิ้ว",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10890,
+    "hospital_name": "รพ. ปากช่องนานา",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10891,
+    "hospital_name": "รพ. หนองบุญมาก",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10892,
+    "hospital_name": "รพ. แก้งสนามนาง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10893,
+    "hospital_name": "รพ. โนนแดง",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10894,
+    "hospital_name": "รพ. วังน้ำเขียว",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11602,
+    "hospital_name": "รพ. เฉลิมพระเกียรติสมเด็จย่า 100 ปี",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11608,
+    "hospital_name": "รพ. ลำทะเมนชัย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 22456,
+    "hospital_name": "รพ. พระทองคำ เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 23839,
+    "hospital_name": "รพ. เทพรัตน์นครราชสีมา",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 24692,
+    "hospital_name": "รพ. เฉลิมพระเกียรติ (นครราชสีมา)",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27839,
+    "hospital_name": "รพ. บัวลาย",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 27840,
+    "hospital_name": "รพ. สีดา",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 27841,
+    "hospital_name": "รพ. เทพารักษ์",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 10667,
+    "hospital_name": "รพ. บุรีรัมย์",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10895,
+    "hospital_name": "รพ. คูเมือง",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10896,
+    "hospital_name": "รพ. กระสัง",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10897,
+    "hospital_name": "รพ. นางรอง",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10898,
+    "hospital_name": "รพ. หนองกี่",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10899,
+    "hospital_name": "รพ. ละหานทราย",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10900,
+    "hospital_name": "รพ. ประโคนชัย",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10901,
+    "hospital_name": "รพ. บ้านกรวด",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10902,
+    "hospital_name": "รพ. พุทไธสง",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10904,
+    "hospital_name": "รพ. ลำปลายมาศ",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10905,
+    "hospital_name": "รพ. สตึก",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10906,
+    "hospital_name": "รพ. ปะคำ",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10907,
+    "hospital_name": "รพ. นาโพธิ์",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10908,
+    "hospital_name": "รพ. หนองหงส์",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10909,
+    "hospital_name": "รพ. พลับพลาชัย",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10910,
+    "hospital_name": "รพ. ห้วยราช",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10911,
+    "hospital_name": "รพ. โนนสุวรรณ",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10912,
+    "hospital_name": "รพ. ชำนิ",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10913,
+    "hospital_name": "รพ. บ้านใหม่ไชยพจน์",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10914,
+    "hospital_name": "รพ. โนนดินแดง",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11619,
+    "hospital_name": "รพ. เฉลิมพระเกียรติ (บุรีรัมย์)",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 23578,
+    "hospital_name": "รพ. แคนดง",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28020,
+    "hospital_name": "รพ. บ้านด่าน",
+    "province": "บุรีรัมย์",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10668,
+    "hospital_name": "รพ. สุรินทร์",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10915,
+    "hospital_name": "รพ. ชุมพลบุรี",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10916,
+    "hospital_name": "รพ. ท่าตูม",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10917,
+    "hospital_name": "รพ. จอมพระ",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10918,
+    "hospital_name": "รพ. ปราสาท",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10919,
+    "hospital_name": "รพ. กาบเชิง",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10920,
+    "hospital_name": "รพ. รัตนบุรี",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10921,
+    "hospital_name": "รพ. สนม",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10922,
+    "hospital_name": "รพ. ศีขรภูมิ",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10923,
+    "hospital_name": "รพ. สังขะ",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10924,
+    "hospital_name": "รพ. ลำดวน",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10925,
+    "hospital_name": "รพ. สำโรงทาบ",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10926,
+    "hospital_name": "รพ. บัวเชด",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 22302,
+    "hospital_name": "รพ. พนมดงรัก เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27842,
+    "hospital_name": "รพ. เขวาสินรินทร์",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27843,
+    "hospital_name": "รพ. ศรีณรงค์",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27844,
+    "hospital_name": "รพ. โนนนารายณ์",
+    "province": "สุรินทร์",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10712,
+    "hospital_name": "รพ. มุกดาหาร",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11113,
+    "hospital_name": "รพ. นิคมคำสร้อย",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11114,
+    "hospital_name": "รพ. ดอนตาล",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11115,
+    "hospital_name": "รพ. ดงหลวง",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11116,
+    "hospital_name": "รพ. คำชะอี",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11117,
+    "hospital_name": "รพ. หว้านใหญ่",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11118,
+    "hospital_name": "รพ. หนองสูง",
+    "province": "มุกดาหาร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10701,
+    "hospital_name": "รพ. ยโสธร",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10963,
+    "hospital_name": "รพ. ทรายมูล",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10964,
+    "hospital_name": "รพ. กุดชุม",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10965,
+    "hospital_name": "รพ. คำเขื่อนแก้ว",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10966,
+    "hospital_name": "รพ. ป่าติ้ว",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10967,
+    "hospital_name": "รพ. มหาชนะชัย",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10968,
+    "hospital_name": "รพ. ค้อวัง",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10969,
+    "hospital_name": "รพ. ไทยเจริญ",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11444,
+    "hospital_name": "รพ. สมเด็จพระยุพราชเลิงนกทา",
+    "province": "ยโสธร",
+    "zone": 10,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10700,
+    "hospital_name": "รพ. ศรีสะเกษ",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10927,
+    "hospital_name": "รพ. ยางชุมน้อย",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10928,
+    "hospital_name": "รพ. กันทรารมย์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F1",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10929,
+    "hospital_name": "รพ. กันทรลักษ์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10930,
+    "hospital_name": "รพ. ขุขันธ์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10931,
+    "hospital_name": "รพ. ไพรบึง",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10932,
+    "hospital_name": "รพ. ปรางค์กู่",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10933,
+    "hospital_name": "รพ. ขุนหาญ",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 10934,
+    "hospital_name": "รพ. ราษีไศล",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 10935,
+    "hospital_name": "รพ. อุทุมพรพิสัย",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10936,
+    "hospital_name": "รพ. บึงบูรพ์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10937,
+    "hospital_name": "รพ. ห้วยทับทัน",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10938,
+    "hospital_name": "รพ. โนนคูณ",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10939,
+    "hospital_name": "รพ. ศรีรัตนะ",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10940,
+    "hospital_name": "รพ. วังหิน",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10941,
+    "hospital_name": "รพ. น้ำเกลี้ยง",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10942,
+    "hospital_name": "รพ. ภูสิงห์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10943,
+    "hospital_name": "รพ. เมืองจันทร์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 23125,
+    "hospital_name": "รพ. เบญจลักษ์เฉลิมพระเกียรติ 80 พรรษา",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28014,
+    "hospital_name": "รพ. พยุห์",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28015,
+    "hospital_name": "รพ. โพธิ์ศรีสุวรรณ",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28016,
+    "hospital_name": "รพ. ศิลาลาด",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10703,
+    "hospital_name": "รพ. อำนาจเจริญ",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10985,
+    "hospital_name": "รพ. ชานุมาน",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10986,
+    "hospital_name": "รพ. ปทุมราชวงศา",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10987,
+    "hospital_name": "รพ. พนา",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10988,
+    "hospital_name": "รพ. เสนางคนิคม",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10989,
+    "hospital_name": "รพ. หัวตะพาน",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 10990,
+    "hospital_name": "รพ. ลืออำนาจ",
+    "province": "อำนาจเจริญ",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10669,
+    "hospital_name": "รพ. สรรพสิทธิประสงค์",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "A",
+    "group": "รพศ.A B>1000"
+  },
+  {
+    "hospital_code": 10944,
+    "hospital_name": "รพ. ศรีเมืองใหม่",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10945,
+    "hospital_name": "รพ. โขงเจียม",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10946,
+    "hospital_name": "รพ. เขื่องใน",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10947,
+    "hospital_name": "รพ. เขมราฐ",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10948,
+    "hospital_name": "รพ. นาจะหลวย",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10949,
+    "hospital_name": "รพ. น้ำยืน",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10950,
+    "hospital_name": "รพ. บุณฑริก",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10951,
+    "hospital_name": "รพ. ตระการพืชผล",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10952,
+    "hospital_name": "รพ. กุดข้าวปุ้น",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10953,
+    "hospital_name": "รพ. ม่วงสามสิบ",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10954,
+    "hospital_name": "รพ. วารินชำราบ",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 10956,
+    "hospital_name": "รพ. พิบูลมังสาหาร",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10957,
+    "hospital_name": "รพ. ตาลสุม",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10958,
+    "hospital_name": "รพ. โพธิ์ไทร",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10959,
+    "hospital_name": "รพ. สำโรง",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10960,
+    "hospital_name": "รพ. ดอนมดแดง",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10961,
+    "hospital_name": "รพ. สิรินธร",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10962,
+    "hospital_name": "รพ. ทุ่งศรีอุดม",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11443,
+    "hospital_name": "รพ. สมเด็จพระยุพราชเดชอุดม",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 21984,
+    "hospital_name": "รพ.  50 พรรษา มหาวชิราลงกรณ",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 24032,
+    "hospital_name": "รพ. นาตาล",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 24821,
+    "hospital_name": "รพ. นาเยีย",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27967,
+    "hospital_name": "รพ. สว่างวีระวงศ์",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27968,
+    "hospital_name": "รพ. น้ำขุ่น",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 27976,
+    "hospital_name": "รพ. เหล่าเสือโก้ก",
+    "province": "อุบลราชธานี",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10738,
+    "hospital_name": "รพ. กระบี่",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11340,
+    "hospital_name": "รพ. เขาพนม",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11341,
+    "hospital_name": "รพ. เกาะลันตา",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11342,
+    "hospital_name": "รพ. คลองท่อม",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11343,
+    "hospital_name": "รพ. อ่าวลึก",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11344,
+    "hospital_name": "รพ. ปลายพระยา",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11345,
+    "hospital_name": "รพ. ลำทับ",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11346,
+    "hospital_name": "รพ. เหนือคลอง",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 77753,
+    "hospital_name": "รพ. เกาะพีพี",
+    "province": "กระบี่",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10744,
+    "hospital_name": "รพ. ชุมพรเขตรอุดมศักดิ์",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11375,
+    "hospital_name": "รพ. ปากน้ำชุมพร",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11376,
+    "hospital_name": "รพ. ท่าแซะ",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11377,
+    "hospital_name": "รพ. ปะทิว",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11378,
+    "hospital_name": "รพ. มาบอำมฤต",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11379,
+    "hospital_name": "รพ. หลังสวน",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11380,
+    "hospital_name": "รพ. ปากน้ำหลังสวน",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11381,
+    "hospital_name": "รพ. ละแม",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11382,
+    "hospital_name": "รพ. พะโต๊ะ",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11383,
+    "hospital_name": "รพ. สวี",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11385,
+    "hospital_name": "รพ. ทุ่งตะโก",
+    "province": "ชุมพร",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10680,
+    "hospital_name": "รพ. มหาราชนครศรีธรรมราช",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 11322,
+    "hospital_name": "รพ. พรหมคีรี",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11324,
+    "hospital_name": "รพ. ลานสกา",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11325,
+    "hospital_name": "รพ. สมเด็จพระยุพราชฉวาง",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11326,
+    "hospital_name": "รพ. พิปูน",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11327,
+    "hospital_name": "รพ. เชียรใหญ่",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11328,
+    "hospital_name": "รพ. ชะอวด",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11329,
+    "hospital_name": "รพ. ท่าศาลา",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11330,
+    "hospital_name": "รพ. ทุ่งสง",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "M1",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11331,
+    "hospital_name": "รพ. นาบอน",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11332,
+    "hospital_name": "รพ. ทุ่งใหญ่",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11333,
+    "hospital_name": "รพ. ปากพนัง",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11334,
+    "hospital_name": "รพ. ร่อนพิบูลย์",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11335,
+    "hospital_name": "รพ. สิชล",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "M1",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11336,
+    "hospital_name": "รพ. ขนอม",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11337,
+    "hospital_name": "รพ. หัวไทร",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11338,
+    "hospital_name": "รพ. บางขัน",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11339,
+    "hospital_name": "รพ. ถ้ำพรรณรา",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 11660,
+    "hospital_name": "รพ. จุฬาภรณ์",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 40491,
+    "hospital_name": "รพ. เฉลิมพระเกียรติ (นครศรีธรรมราช)",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 40492,
+    "hospital_name": "รพ. พ่อท่านคล้ายวาจาสิทธิ์",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 40742,
+    "hospital_name": "รพ. นบพิตำ",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 40743,
+    "hospital_name": "รพ. พระพรหม",
+    "province": "นครศรีธรรมราช",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10739,
+    "hospital_name": "รพ. พังงา",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 10740,
+    "hospital_name": "รพ. ตะกั่วป่า",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11347,
+    "hospital_name": "รพ. เกาะยาวชัยพัฒน์",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11348,
+    "hospital_name": "รพ. กะปงชัยพัฒน์",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11349,
+    "hospital_name": "รพ. ตะกั่วทุ่ง",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11350,
+    "hospital_name": "รพ. บางไทร (พังงา)",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11352,
+    "hospital_name": "รพ. คุระบุรีชัยพัฒน์",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11353,
+    "hospital_name": "รพ. ทับปุด",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11354,
+    "hospital_name": "รพ. ท้ายเหมืองชัยพัฒน์",
+    "province": "พังงา",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10741,
+    "hospital_name": "รพ. วชิระภูเก็ต",
+    "province": "ภูเก็ต",
+    "zone": 11,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 11355,
+    "hospital_name": "รพ. ป่าตอง",
+    "province": "ภูเก็ต",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11356,
+    "hospital_name": "รพ. ถลาง",
+    "province": "ภูเก็ต",
+    "zone": 11,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 10743,
+    "hospital_name": "รพ. ระนอง",
+    "province": "ระนอง",
+    "zone": 11,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11323,
+    "hospital_name": "รพ. ละอุ่น",
+    "province": "ระนอง",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 11372,
+    "hospital_name": "รพ. กะเปอร์",
+    "province": "ระนอง",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11373,
+    "hospital_name": "รพ. กระบุรี",
+    "province": "ระนอง",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11374,
+    "hospital_name": "รพ. สุขสำราญ",
+    "province": "ระนอง",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 10681,
+    "hospital_name": "รพ. สุราษฎร์ธานี",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10742,
+    "hospital_name": "รพ. เกาะสมุย",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11357,
+    "hospital_name": "รพ. กาญจนดิษฐ์",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11358,
+    "hospital_name": "รพ. ดอนสัก",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11359,
+    "hospital_name": "รพ. เกาะพะงัน",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11360,
+    "hospital_name": "รพ. ไชยา",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11361,
+    "hospital_name": "รพ. ท่าชนะ",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11362,
+    "hospital_name": "รพ. คีรีรัฐนิคม",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11363,
+    "hospital_name": "รพ. บ้านตาขุน",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11364,
+    "hospital_name": "รพ. พนม",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11365,
+    "hospital_name": "รพ. ท่าฉาง",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11366,
+    "hospital_name": "รพ. บ้านนาสาร",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11367,
+    "hospital_name": "รพ. บ้านนาเดิม",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11368,
+    "hospital_name": "รพ. เคียนซา",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11369,
+    "hospital_name": "รพ. พระแสง",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11370,
+    "hospital_name": "รพ. พุนพิน",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11371,
+    "hospital_name": "รพ. ชัยบุรี",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11459,
+    "hospital_name": "รพ. สมเด็จพระยุพราชเวียงสระ",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11654,
+    "hospital_name": "รพ. วิภาวดี",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 14138,
+    "hospital_name": "รพ. ท่าโรงช้าง",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 10683,
+    "hospital_name": "รพ. ตรัง",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 11407,
+    "hospital_name": "รพ. กันตัง",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11408,
+    "hospital_name": "รพ. ย่านตาขาว",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11409,
+    "hospital_name": "รพ. ปะเหลียน",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11410,
+    "hospital_name": "รพ. สิเกา",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11411,
+    "hospital_name": "รพ. ห้วยยอด",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11412,
+    "hospital_name": "รพ. วังวิเศษ",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11413,
+    "hospital_name": "รพ. นาโยง",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 14139,
+    "hospital_name": "รพ. รัษฎา",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28817,
+    "hospital_name": "รพ. หาดสำราญเฉลิมพระเกียรติ 80 พรรษา",
+    "province": "ตรัง",
+    "zone": 12,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10750,
+    "hospital_name": "รพ. นราธิวาสราชนครินทร์",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 10751,
+    "hospital_name": "รพ. สุไหงโก-ลก",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11435,
+    "hospital_name": "รพ. ตากใบ",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11436,
+    "hospital_name": "รพ. บาเจาะ",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11437,
+    "hospital_name": "รพ. ระแงะ",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11438,
+    "hospital_name": "รพ. รือเสาะ",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11439,
+    "hospital_name": "รพ. ศรีสาคร",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11440,
+    "hospital_name": "รพ. แว้ง",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11441,
+    "hospital_name": "รพ. สุคิริน",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11442,
+    "hospital_name": "รพ. สุไหงปาดี",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 13818,
+    "hospital_name": "รพ. จะแนะ",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 15010,
+    "hospital_name": "รพ. เจาะไอร้อง",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 23771,
+    "hospital_name": "รพ. ยี่งอเฉลิมพระเกียรติ 80 พรรษา",
+    "province": "นราธิวาส",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 10748,
+    "hospital_name": "รพ. ปัตตานี",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11423,
+    "hospital_name": "รพ. โคกโพธิ์",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11424,
+    "hospital_name": "รพ. หนองจิก",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11425,
+    "hospital_name": "รพ. ปะนาเระ",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11426,
+    "hospital_name": "รพ. มายอ",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11427,
+    "hospital_name": "รพ. ทุ่งยางแดง",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11428,
+    "hospital_name": "รพ. ไม้แก่น",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11429,
+    "hospital_name": "รพ. ยะหริ่ง",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11430,
+    "hospital_name": "รพ. ยะรัง",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11431,
+    "hospital_name": "รพ. แม่ลาน",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11460,
+    "hospital_name": "รพ. สมเด็จพระยุพราชสายบุรี",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11464,
+    "hospital_name": "รพ. กะพ้อ",
+    "province": "ปัตตานี",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10747,
+    "hospital_name": "รพ. พัทลุง",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11414,
+    "hospital_name": "รพ. กงหรา",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11415,
+    "hospital_name": "รพ. เขาชัยสน",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11416,
+    "hospital_name": "รพ. ตะโหมด",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11417,
+    "hospital_name": "รพ. ควนขนุน",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "M2",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11418,
+    "hospital_name": "รพ. ปากพะยูน",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11419,
+    "hospital_name": "รพ. ศรีบรรพต",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11420,
+    "hospital_name": "รพ. ป่าบอน",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11421,
+    "hospital_name": "รพ. บางแก้ว",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11422,
+    "hospital_name": "รพ. ป่าพะยอม",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 24673,
+    "hospital_name": "รพ. ศรีนครินทร์(ปัญญานันทภิขุ)",
+    "province": "พัทลุง",
+    "zone": 12,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 10684,
+    "hospital_name": "รพ. ยะลา",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "A",
+    "group": "รพศ.A B<=700"
+  },
+  {
+    "hospital_code": 10749,
+    "hospital_name": "รพ. เบตง",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "M1",
+    "group": "รพท.M1 B>200"
+  },
+  {
+    "hospital_code": 11432,
+    "hospital_name": "รพ. บันนังสตา",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11433,
+    "hospital_name": "รพ. ธารโต",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11434,
+    "hospital_name": "รพ. รามัน",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11461,
+    "hospital_name": "รพ. สมเด็จพระยุพราชยะหา",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 13806,
+    "hospital_name": "รพ. กาบัง",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 24689,
+    "hospital_name": "รพ. กรงปินัง",
+    "province": "ยะลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10682,
+    "hospital_name": "รพ. หาดใหญ่",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "A",
+    "group": "รพศ.A B>700to1000"
+  },
+  {
+    "hospital_code": 10745,
+    "hospital_name": "รพ. สงขลา",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "S",
+    "group": "รพท.S B>400"
+  },
+  {
+    "hospital_code": 11386,
+    "hospital_name": "รพ. สทิงพระ",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11387,
+    "hospital_name": "รพ. จะนะ",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11388,
+    "hospital_name": "รพ. สมเด็จพระบรมราชินีนาถ ณ  อำเภอนาทวี",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "M2",
+    "group": "รพช.M2 B>100"
+  },
+  {
+    "hospital_code": 11390,
+    "hospital_name": "รพ. เทพา",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11391,
+    "hospital_name": "รพ. สะบ้าย้อย",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11392,
+    "hospital_name": "รพ. ระโนด",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 11393,
+    "hospital_name": "รพ. กระแสสินธุ์",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11394,
+    "hospital_name": "รพ. รัตภูมิ",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11395,
+    "hospital_name": "รพ. สะเดา",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F1 P50,000-100,000"
+  },
+  {
+    "hospital_code": 11396,
+    "hospital_name": "รพ. นาหม่อม",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11397,
+    "hospital_name": "รพ. ควนเนียง",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11398,
+    "hospital_name": "รพ. ปาดังเบซาร์",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11399,
+    "hospital_name": "รพ. บางกล่ำ",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11400,
+    "hospital_name": "รพ. สิงหนคร",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P30,000-60,000"
+  },
+  {
+    "hospital_code": 11401,
+    "hospital_name": "รพ. คลองหอยโข่ง",
+    "province": "สงขลา",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 10746,
+    "hospital_name": "รพ. สตูล",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "S",
+    "group": "รพท.S B<=400"
+  },
+  {
+    "hospital_code": 11402,
+    "hospital_name": "รพ. ควนโดน",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11403,
+    "hospital_name": "รพ. ควนกาหลง",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11404,
+    "hospital_name": "รพ. ท่าแพ",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 11405,
+    "hospital_name": "รพ. ละงู",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "F1",
+    "group": "รพช.M2 B<=100"
+  },
+  {
+    "hospital_code": 11406,
+    "hospital_name": "รพ. ทุ่งหว้า",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "F2",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 28786,
+    "hospital_name": "รพ. มะนัง",
+    "province": "สตูล",
+    "zone": 12,
+    "type": "F3",
+    "group": "รพช.F2 P<=30,000"
+  },
+  {
+    "hospital_code": 41768,
+    "hospital_name": "รพ. ศูนย์บริการการแพทย์นนทบุรี",
+    "province": "นนทบุรี",
+    "zone": 4,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 41701,
+    "hospital_name": "รพ. หนองปรือ",
+    "province": "กาญจนบุรี",
+    "zone": 5,
+    "type": "F3",
+    "group": "รพช.F3 P15,000-25,000"
+  },
+  {
+    "hospital_code": 41436,
+    "hospital_name": "รพ. ฉลอง",
+    "province": "ภูเก็ต",
+    "zone": 11,
+    "type": "F2",
+    "group": "รพช.F1 P<=50,000"
+  },
+  {
+    "hospital_code": 9192,
+    "hospital_name": "รพ.เกาะเต่า",
+    "province": "สุราษฎร์ธานี",
+    "zone": 11,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 6009,
+    "hospital_name": "รพ.แม่ตื่น",
+    "province": "เชียงใหม่",
+    "zone": 1,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 77498,
+    "hospital_name": "รพ. มกุฏคีรีวัน",
+    "province": "นครราชสีมา",
+    "zone": 9,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  },
+  {
+    "hospital_code": 53964,
+    "hospital_name": "รพ. โคกจาน",
+    "province": "ศรีสะเกษ",
+    "zone": 10,
+    "type": "F3",
+    "group": "รพช.F3 P<=15,000"
+  }
+]

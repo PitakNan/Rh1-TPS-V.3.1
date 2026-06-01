@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-navy:   #0f172a;
+  --color-navy2:  #1e293b;
+  --color-gold:   #f59e0b;
+  --color-gold2:  #d97706;
+  --color-blue:   #3b82f6;
+  --color-bg:     #f1f5f9;
+}
+
+body {
+  font-family: var(--font-sarabun), 'Sarabun', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-bg);
+  color: #1e293b;
+}
+
+/* Scrollbar ── Midnight Blue style */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #f59e0b; }
+
+/* Chart colors - vibrant & visible */
+.chart-primary { color: #3b82f6; }
+.chart-secondary { color: #ef4444; }
+.chart-success { color: #10b981; }
+.chart-warning { color: #f59e0b; }
+.chart-info { color: #0ea5e9; }
+.chart-danger { color: #dc2626; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+}
