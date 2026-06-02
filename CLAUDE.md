@@ -227,6 +227,13 @@ score_outcome = score_2_1 + score_2_2
 - **X-axis**: แสดงทุกไตรมาส `interval={0}` เอียง -45°
 - **โหลด on-demand**: indicator mode โหลด 5 ไฟล์พร้อมกัน (indicators + ratios + quality + finperf + risk_profile)
 - **URL parameter**: รับ `?code=XXXXX` → auto-select รพ. นั้น (ใช้ `useSearchParams` + `Suspense` wrapper)
+- **เส้นค่ากลาง / เกณฑ์ (toggle)** — แสดงเฉพาะตอนเลือก **ตัวชี้วัดเดียว** ที่มี `medianField` หรือ `threshold(s)`
+  - **ค่ากลางกลุ่ม (ไดนามิก)**: per รพ. เส้นประจับคู่สี (`med__${code}` ใน chartData) — OPM, ROA, Unit Cost OP/IP, MC ยา/วัสดุ/เวชภัณฑ์, LC
+    (median เป็น **per-group** อ่านจาก field เดียวกับ metric: `ratio_opm_med`, `qm_op_mean`, `hgr_*_mean`)
+  - **เกณฑ์คงที่**: เส้นแนวนอนเขียว — Cash 0.8 / EBITDA,NWC 0 / ACP UC,CS,Inventory 60 / ครองเตียง 80
+  - **เกณฑ์หลายเส้น** (`thresholds: number[]`): รายได้/ค่าใช้จ่าย vs แผน = `[5, -5]` (±5%)
+  - state `showMedian` (default off), เลือกหลายตัวชี้วัด → ซ่อน toggle
+  - เส้นค่ากลาง/เกณฑ์ใช้ `yAxisId` ตามหน่วยของ metric (baht=ขวา, อื่น=ซ้าย)
 
 #### MetricDef pattern (สำคัญ — ใช้ใน Trend)
 ```ts
@@ -236,6 +243,9 @@ interface MetricDef {
   field: string     // field จริงในไฟล์ข้อมูล (อาจต่างจาก key)
   source: 'tps' | 'indicator' | 'ratio' | 'quality' | 'finperf' | 'risk'
   unit: 'score' | 'days' | 'pct' | 'ratio' | 'baht'
+  medianField?: string  // field ค่ากลาง per-group (source เดียวกัน) → เส้นประจับคู่สี รพ.
+  threshold?: number    // เกณฑ์เดี่ยว → 1 เส้นแนวนอน
+  thresholds?: number[] // เกณฑ์หลายเส้น เช่น ±5% → [5, -5]
 }
 // unit === 'baht' → แกนขวา, อื่นๆ → แกนซ้าย
 ```

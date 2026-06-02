@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo, useRef } from 'react'
 import { useSearchParams } from 'next/navigation'
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid,
-  Tooltip, Legend, ResponsiveContainer,
+  Tooltip, Legend, ResponsiveContainer, ReferenceLine,
 } from 'recharts'
 import {
   getHospitals, getPeriods, getTpsScores, getIndicators,
@@ -27,6 +27,9 @@ interface MetricDef {
   field: string     // field จริงใน data source
   source: DataSource
   unit: Unit        // 'baht' → แกนขวา, อื่นๆ → แกนซ้าย
+  medianField?: string  // field ค่ากลาง per-group (อยู่ source เดียวกัน) → เส้นประจับคู่สี รพ.
+  threshold?: number    // เกณฑ์ค่าคงที่ → เส้นแนวนอนเดียว
+  thresholds?: number[] // เกณฑ์หลายเส้น เช่น ±5% → [5, -5]
 }
 
 // ── ค่าคงที่ ─────────────────────────────────────────────────────────────
@@ -48,44 +51,44 @@ const TPS_METRICS: MetricDef[] = [
 
 const INDICATOR_METRICS: MetricDef[] = [
   // ค่าจริงเป็น %
-  { key: 'ind_revenue',   label: 'รายได้ vs แผน (%)',          field: 'rev_pct',        source: 'finperf',   unit: 'pct'   },
-  { key: 'ind_expense',   label: 'ค่าใช้จ่าย vs แผน (%)',      field: 'exp_pct',        source: 'finperf',   unit: 'pct'   },
+  { key: 'ind_revenue',   label: 'รายได้ vs แผน (%)',          field: 'rev_pct',        source: 'finperf',   unit: 'pct',  thresholds: [5, -5] },
+  { key: 'ind_expense',   label: 'ค่าใช้จ่าย vs แผน (%)',      field: 'exp_pct',        source: 'finperf',   unit: 'pct',  thresholds: [5, -5] },
   // ค่าจริงเป็นวัน
   { key: 'ind_app_d',     label: 'AP Days (วัน)',               field: 'ind_app_d_val',  source: 'indicator', unit: 'days'  },
-  { key: 'ind_acp_uc',    label: 'ACP UC (วัน)',                field: 'ind_acp_uc_val', source: 'indicator', unit: 'days'  },
-  { key: 'ind_acp_cs',    label: 'ACP CS (วัน)',                field: 'ind_acp_cs_val', source: 'indicator', unit: 'days'  },
-  { key: 'ind_aip',       label: 'Inventory (วัน)',             field: 'ind_aip_val',    source: 'indicator', unit: 'days'  },
-  // ค่าจริงเป็นบาท → แกนขวา
-  { key: 'ind_qm_op',     label: 'Unit Cost OP (บาท/ครั้ง)',   field: 'qm_op_cost',     source: 'quality',   unit: 'baht'  },
-  { key: 'ind_qm_ip',     label: 'Unit Cost IP (บาท/adjRW)',   field: 'qm_ip_cost',     source: 'quality',   unit: 'baht'  },
-  { key: 'ind_lc',        label: 'LC ค่าแรง (บาท)',            field: 'hgr_lc',         source: 'quality',   unit: 'baht'  },
-  { key: 'ind_drug',      label: 'MC ยา (บาท)',                field: 'hgr_drug',       source: 'quality',   unit: 'baht'  },
-  { key: 'ind_sci_mat',   label: 'MC วัสดุวิทย์ (บาท)',        field: 'hgr_sci',        source: 'quality',   unit: 'baht'  },
-  { key: 'ind_non_drug',  label: 'MC เวชภัณฑ์ (บาท)',          field: 'hgr_nondrug',    source: 'quality',   unit: 'baht'  },
+  { key: 'ind_acp_uc',    label: 'ACP UC (วัน)',                field: 'ind_acp_uc_val', source: 'indicator', unit: 'days', threshold: 60 },
+  { key: 'ind_acp_cs',    label: 'ACP CS (วัน)',                field: 'ind_acp_cs_val', source: 'indicator', unit: 'days', threshold: 60 },
+  { key: 'ind_aip',       label: 'Inventory (วัน)',             field: 'ind_aip_val',    source: 'indicator', unit: 'days', threshold: 60 },
+  // ค่าจริงเป็นบาท → แกนขวา (มีค่ากลาง per-group)
+  { key: 'ind_qm_op',     label: 'Unit Cost OP (บาท/ครั้ง)',   field: 'qm_op_cost',     source: 'quality',   unit: 'baht', medianField: 'qm_op_mean'      },
+  { key: 'ind_qm_ip',     label: 'Unit Cost IP (บาท/adjRW)',   field: 'qm_ip_cost',     source: 'quality',   unit: 'baht', medianField: 'qm_ip_mean'      },
+  { key: 'ind_lc',        label: 'LC ค่าแรง (บาท)',            field: 'hgr_lc',         source: 'quality',   unit: 'baht', medianField: 'hgr_lc_mean'     },
+  { key: 'ind_drug',      label: 'MC ยา (บาท)',                field: 'hgr_drug',       source: 'quality',   unit: 'baht', medianField: 'hgr_drug_mean'   },
+  { key: 'ind_sci_mat',   label: 'MC วัสดุวิทย์ (บาท)',        field: 'hgr_sci',        source: 'quality',   unit: 'baht', medianField: 'hgr_sci_mean'    },
+  { key: 'ind_non_drug',  label: 'MC เวชภัณฑ์ (บาท)',          field: 'hgr_nondrug',    source: 'quality',   unit: 'baht', medianField: 'hgr_nondrug_mean'},
   // คะแนนเท่านั้น → แกนซ้าย
   { key: 'ind_trial_bal', label: 'งบทดลอง (คะแนน)',            field: 'ind_trial_bal',  source: 'indicator', unit: 'score' },
   // ค่าจริงจาก risk_profile
-  { key: 'ind_bed_occ',   label: 'อัตราครองเตียง (%)',         field: 'bo_rate',        source: 'risk',      unit: 'pct'   },
+  { key: 'ind_bed_occ',   label: 'อัตราครองเตียง (%)',         field: 'bo_rate',        source: 'risk',      unit: 'pct',  threshold: 80 },
   { key: 'ind_sum_adjrw', label: 'SumAdjRW (adjRW)',           field: 'sa_value',       source: 'risk',      unit: 'baht'  },
-  // ค่าจริงเป็น %
-  { key: 'ind_opm',       label: 'OPM (%)',                    field: 'ratio_opm',      source: 'ratio',     unit: 'pct'   },
-  { key: 'ind_roa',       label: 'ROA (%)',                    field: 'ratio_roa',      source: 'ratio',     unit: 'pct'   },
+  // ค่าจริงเป็น % (มีค่ากลาง per-group)
+  { key: 'ind_opm',       label: 'OPM (%)',                    field: 'ratio_opm',      source: 'ratio',     unit: 'pct',  medianField: 'ratio_opm_med' },
+  { key: 'ind_roa',       label: 'ROA (%)',                    field: 'ratio_roa',      source: 'ratio',     unit: 'pct',  medianField: 'ratio_roa_med' },
   // ค่าจริงเป็นบาท → แกนขวา
-  { key: 'ind_ebitda',    label: 'EBITDA (บาท)',               field: 'ratio_ebitda',   source: 'ratio',     unit: 'baht'  },
-  { key: 'ind_nwc',       label: 'NWC (บาท)',                  field: 'ratio_nwc',      source: 'ratio',     unit: 'baht'  },
+  { key: 'ind_ebitda',    label: 'EBITDA (บาท)',               field: 'ratio_ebitda',   source: 'ratio',     unit: 'baht', threshold: 0 },
+  { key: 'ind_nwc',       label: 'NWC (บาท)',                  field: 'ratio_nwc',      source: 'ratio',     unit: 'baht', threshold: 0 },
   // ค่า ratio → แกนซ้าย
-  { key: 'ind_cash',      label: 'Cash Ratio',                 field: 'ratio_cash',     source: 'ratio',     unit: 'ratio' },
+  { key: 'ind_cash',      label: 'Cash Ratio',                 field: 'ratio_cash',     source: 'ratio',     unit: 'ratio', threshold: 0.8 },
 ]
 
 const RATIO_METRICS: MetricDef[] = [
-  { key: 'ratio_opm',     label: 'OPM (%)',               field: 'ratio_opm',     source: 'ratio', unit: 'pct'   },
-  { key: 'ratio_roa',     label: 'ROA (%)',               field: 'ratio_roa',     source: 'ratio', unit: 'pct'   },
-  { key: 'ratio_cash',    label: 'Cash Ratio',            field: 'ratio_cash',    source: 'ratio', unit: 'ratio' },
+  { key: 'ratio_opm',     label: 'OPM (%)',               field: 'ratio_opm',     source: 'ratio', unit: 'pct',   medianField: 'ratio_opm_med' },
+  { key: 'ratio_roa',     label: 'ROA (%)',               field: 'ratio_roa',     source: 'ratio', unit: 'pct',   medianField: 'ratio_roa_med' },
+  { key: 'ratio_cash',    label: 'Cash Ratio',            field: 'ratio_cash',    source: 'ratio', unit: 'ratio', threshold: 0.8 },
   { key: 'ratio_cr',      label: 'Current Ratio',         field: 'ratio_cr',      source: 'ratio', unit: 'ratio' },
   { key: 'ratio_qr',      label: 'Quick Ratio',           field: 'ratio_qr',      source: 'ratio', unit: 'ratio' },
   { key: 'ratio_im',      label: 'Inventory (วัน)',       field: 'ratio_im',      source: 'ratio', unit: 'days'  },
-  { key: 'ratio_nwc',     label: 'NWC (บาท)',             field: 'ratio_nwc',     source: 'ratio', unit: 'baht'  },
-  { key: 'ratio_ebitda',  label: 'EBITDA (บาท)',          field: 'ratio_ebitda',  source: 'ratio', unit: 'baht'  },
+  { key: 'ratio_nwc',     label: 'NWC (บาท)',             field: 'ratio_nwc',     source: 'ratio', unit: 'baht', threshold: 0 },
+  { key: 'ratio_ebitda',  label: 'EBITDA (บาท)',          field: 'ratio_ebitda',  source: 'ratio', unit: 'baht', threshold: 0 },
   { key: 'ratio_reserve', label: 'Reserve (บาท)',         field: 'ratio_reserve', source: 'ratio', unit: 'baht'  },
 ]
 
@@ -123,6 +126,7 @@ function TrendContent() {
   const [showDropdown, setShowDropdown]           = useState(false)
   const [mode, setMode]                           = useState<Mode>('tps')
   const [selectedMetrics, setSelectedMetrics]     = useState<string[]>(['tps_score'])
+  const [showMedian, setShowMedian]               = useState(false)
   const searchRef   = useRef<HTMLDivElement>(null)
   const loadedSources = useRef<Set<string>>(new Set(['tps']))
   const searchParams = useSearchParams()
@@ -235,6 +239,19 @@ function TrendContent() {
       })
     })
 
+    // ค่ากลาง per-group: เฉพาะตอนเลือกตัวชี้วัดเดียวที่มี medianField
+    const medLookup = new Map<string, Map<string, number | null>>()
+    const singleDef = selectedMetrics.length === 1 ? getMetricDef(selectedMetrics[0]) : null
+    if (singleDef?.medianField) {
+      selectedHospitals.forEach(code => medLookup.set(code, new Map()))
+      getRows(singleDef.source).forEach(row => {
+        const code = row.hospital_code as string
+        if (!selectedHospitals.includes(code)) return
+        const v = row[singleDef.medianField!]
+        medLookup.get(code)?.set(row.period_id as string, v != null ? Number(v) : null)
+      })
+    }
+
     return periods.map(p => {
       const row: Record<string, unknown> = {
         period_id: p.period_id,
@@ -245,6 +262,11 @@ function TrendContent() {
           row[`${code}__${m}`] = lookup.get(`${code}__${m}`)?.get(p.period_id) ?? null
         })
       )
+      if (singleDef?.medianField) {
+        selectedHospitals.forEach(code => {
+          row[`med__${code}`] = medLookup.get(code)?.get(p.period_id) ?? null
+        })
+      }
       return row
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -271,6 +293,25 @@ function TrendContent() {
   }, [selectedHospitals, selectedMetrics, hospMap, currentMetrics])
 
   const hasRightAxis = selectedMetrics.some(m => isRightAxis(m))
+
+  // ── ค่ากลาง / เกณฑ์ (เฉพาะตอนเลือกตัวชี้วัดเดียว) ──
+  const singleMetricDef = selectedMetrics.length === 1 ? getMetricDef(selectedMetrics[0]) : undefined
+  const thresholdList    = singleMetricDef?.thresholds
+    ?? (singleMetricDef?.threshold != null ? [singleMetricDef.threshold] : [])
+  const canShowMedian    = !!singleMetricDef?.medianField
+  const canShowThreshold = thresholdList.length > 0
+  const refAvailable     = canShowMedian || canShowThreshold
+  const refAxisId        = singleMetricDef && isRightAxis(singleMetricDef.key) ? 'right' : 'left'
+
+  const medianLines = useMemo(() => {
+    if (!canShowMedian) return []
+    return selectedHospitals.map((code, hi) => ({
+      dataKey: `med__${code}`,
+      color:   COLORS[hi % COLORS.length],
+      label:   `ค่ากลางกลุ่ม · ${hospMap.get(code)?.hospital_name ?? code}`,
+    }))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [canShowMedian, selectedHospitals, hospMap])
 
   const fmtVal = (v: number) => {
     if (Math.abs(v) >= 1e8) return `${(v / 1e6).toFixed(0)}M`
@@ -440,6 +481,23 @@ function TrendContent() {
               }
             </div>
           )}
+
+          {/* Toggle เส้นค่ากลาง / เกณฑ์ (เฉพาะเลือกตัวชี้วัดเดียวที่มีค่ากลาง/เกณฑ์) */}
+          {refAvailable ? (
+            <div className="flex items-center gap-2 pt-1">
+              <button onClick={() => setShowMedian(v => !v)}
+                className={`relative inline-flex items-center h-5 w-9 rounded-full transition ${showMedian ? 'bg-blue-500' : 'bg-slate-300'}`}>
+                <span className={`inline-block w-4 h-4 rounded-full bg-white shadow transform transition ${showMedian ? 'translate-x-4' : 'translate-x-0.5'}`} />
+              </button>
+              <span className="text-xs text-slate-600">
+                {canShowMedian
+                  ? 'แสดงเส้นค่ากลางกลุ่ม (เส้นประจับคู่สีกับ รพ.)'
+                  : `แสดงเส้นเกณฑ์ (${thresholdList.map(t => (t > 0 ? '+' : '') + t).join(' / ')} ${UNIT_LABEL[singleMetricDef?.unit ?? 'score']})`}
+              </span>
+            </div>
+          ) : selectedMetrics.length > 1 && (
+            <p className="text-xs text-slate-300 pt-1">เลือกตัวชี้วัดเดียวเพื่อแสดงเส้นค่ากลาง/เกณฑ์</p>
+          )}
         </div>
 
         {/* ── กราฟ ── */}
@@ -486,7 +544,8 @@ function TrendContent() {
                   labelStyle={{ fontWeight: 600, color: '#0f172a', marginBottom: 6 }}
                   formatter={(value: unknown, name: string) => {
                     const def = lines.find(l => l.dataKey === name)
-                    return [value != null ? fmtVal(Number(value)) : '–', def?.label ?? name]
+                    const med = medianLines.find(l => l.dataKey === name)
+                    return [value != null ? fmtVal(Number(value)) : '–', def?.label ?? med?.label ?? name]
                   }}
                 />
                 <Legend
@@ -499,6 +558,22 @@ function TrendContent() {
                     dot={{ r: 2.5, strokeWidth: 0, fill: l.color }}
                     activeDot={{ r: 5, strokeWidth: 2, stroke: '#fff' }}
                     connectNulls={false}
+                  />
+                ))}
+
+                {/* เส้นค่ากลางกลุ่ม (per รพ. จับคู่สี เส้นประ) */}
+                {showMedian && medianLines.map(ml => (
+                  <Line key={ml.dataKey} yAxisId={refAxisId} type="monotone" dataKey={ml.dataKey}
+                    stroke={ml.color} strokeWidth={2} strokeDasharray="6 4" strokeOpacity={0.85}
+                    dot={false} activeDot={{ r: 4 }} connectNulls legendType="none"
+                  />
+                ))}
+
+                {/* เส้นเกณฑ์ค่าคงที่ (รองรับหลายเส้น เช่น ±5%) */}
+                {showMedian && thresholdList.map((t, i) => (
+                  <ReferenceLine key={i} yAxisId={refAxisId} y={t}
+                    stroke="#10b981" strokeDasharray="5 3" strokeWidth={1.5}
+                    label={{ value: `เกณฑ์ ${t > 0 ? '+' : ''}${t}`, position: 'insideTopRight', fontSize: 10, fill: '#059669' }}
                   />
                 ))}
               </LineChart>
