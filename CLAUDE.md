@@ -11,7 +11,37 @@
 - **Tailwind CSS** v3 (utility-first)
 - **Recharts** 2.15 (กราฟ/chart ทั้งหมด)
 - Font: **Sarabun** (ไทย+อังกฤษ ทุกหน้า)
-- Deploy: Static export (`next build`)
+- Deploy: Static export (`next build`) บน **Vercel**
+
+---
+
+## ⚠️⚠️ สำคัญมาก — มี 2 โฟลเดอร์ ต้องแก้ทั้งคู่
+
+| โฟลเดอร์ | ใช้ทำอะไร |
+|---|---|
+| `D:\Dashboard AI\TPS-Next.js` | โฟลเดอร์ dev (รัน `npm run dev` ทดสอบ) |
+| `D:\Github\Rh1-TPS-V.3.1` | โฟลเดอร์ git (push ขึ้น Vercel) |
+
+**ทุกครั้งที่แก้โค้ด ต้องแก้ให้เหมือนกันทั้ง 2 โฟลเดอร์** ไม่งั้น dev กับ production จะไม่ตรงกัน
+
+### Deployment (Vercel)
+- **Live URL**: https://rh1-tps-v-3-1.vercel.app
+- **GitHub repo**: `PitakNan/Rh1-TPS-V.3.1` (branch `main`)
+- **Workflow อัปเดต**: แก้โค้ดใน `D:\Github\Rh1-TPS-V.3.1` → GitHub Desktop → Commit → Push → Vercel build อัตโนมัติ
+- **next.config.ts**: `output: 'export'` + `trailingSlash: true` + `images.unoptimized: true`
+
+### ⚠️ Static export ห้ามมี API routes
+- `output: 'export'` ไม่รองรับ `/api/*` route handlers → build fail
+- **ลบโฟลเดอร์ `src/app/api/` ออกแล้ว** (เคยมี dashboard/indicators/test) — ข้อมูลโหลดจาก `/public/data/` โดยตรงผ่าน fetchData อยู่แล้ว ไม่ต้องใช้ API
+- ถ้าจะเพิ่มฟีเจอร์ใหม่ อย่าสร้าง API route — ให้ใช้ client-side fetch แทน
+
+### .gitignore ใน git repo
+```
+node_modules/
+.next/
+out/
+*.log
+```
 
 ---
 
@@ -235,6 +265,11 @@ mode=ratio:       financial_ratios
 - **binaryOnly** สำหรับ ind_expense — ตัด 3 ไตรมาสแรกที่เก็บค่าบาทจริง
 - **Performance fix**: บังคับเลือกเขต หรือ จังหวัด ก่อนแสดงตาราง (ป้องกัน render 18,060 cell พร้อมกัน)
 - **React key fix**: ใช้ `<Fragment key={province}>` แทน `<>` ใน grouped.map()
+- **Sticky header 2 แถว** ✅ เสร็จแล้ว
+  - scroll container = `<div overflow-auto max-h-[calc(100vh-150px)]>` (ตาราง scroll ภายในกรอบตัวเอง)
+  - แถว 1 (ชื่อตัวชี้วัด): `sticky top-0` / แถว 2 (อัตราผ่าน): `sticky top-12` (ใต้แถว 1, แถว 1 สูง `h-12`)
+  - z-index: corner cell (left+top) = z-30, header cell (top อย่างเดียว) = z-20, body-left cell = z-10
+  - sticky cell ทุกตัวต้องมี `background` ของตัวเอง (ไม่ใช้ bg ของ `<tr>`) ไม่งั้นโปร่งทะลุ
 
 ---
 

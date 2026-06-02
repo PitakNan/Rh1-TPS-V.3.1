@@ -242,44 +242,48 @@ export default function HospitalPage() {
           </div>
         ) : (
           <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
-            <div className="overflow-x-auto">
+            <div className="overflow-auto max-h-[calc(100vh-150px)]">
               <table className="w-full border-collapse text-sm" style={{ minWidth: '1100px' }}>
 
-                {/* ── Column headers ── */}
+                {/* ── Column headers (sticky top 2 แถว) ── */}
                 <thead>
-                  <tr className="border-b-2 border-slate-200" style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)' }}>
-                    {/* Fixed columns */}
-                    <th className="sticky left-0 z-10 text-left px-3 py-3 text-xs font-semibold text-slate-300 w-8 border-r border-slate-700"
+                  {/* แถว 1: ชื่อตัวชี้วัด — sticky top-0 */}
+                  <tr className="border-b-2 border-slate-200">
+                    {/* Fixed columns (sticky ทั้ง top + left = z-30) */}
+                    <th className="sticky left-0 top-0 z-30 h-12 text-left px-3 text-xs font-semibold text-slate-300 w-8 border-r border-slate-700"
                       style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)' }}>#</th>
-                    <th className="sticky left-8 z-10 text-left px-3 py-3 text-xs font-semibold text-white min-w-[220px] border-r border-slate-700"
+                    <th className="sticky left-8 top-0 z-30 h-12 text-left px-3 text-xs font-semibold text-white min-w-[220px] border-r border-slate-700"
                       style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)' }}>ชื่อโรงพยาบาล</th>
-                    <th className="text-left px-3 py-3 text-xs font-semibold text-slate-300 w-10 border-r border-slate-600">ประเภท</th>
+                    <th className="sticky top-0 z-20 h-12 text-left px-3 text-xs font-semibold text-slate-300 w-10 border-r border-slate-600"
+                      style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)' }}>ประเภท</th>
 
                     {/* Indicator columns */}
                     {IND_COLS.map((col, ci) => (
-                      <th key={col.key} className="px-1 py-2 text-center border-r border-slate-700 w-14">
+                      <th key={col.key} className="sticky top-0 z-20 h-12 px-1 text-center border-r border-slate-700 w-14"
+                        style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)' }}>
                         <div className="text-xs font-semibold text-slate-200 leading-tight">{col.short}</div>
                         <div className="text-xs text-slate-500 mt-0.5">{ci + 1}</div>
                       </th>
                     ))}
 
                     {/* Pass count */}
-                    <th className="px-3 py-3 text-center text-xs font-semibold text-slate-300 w-16 border-l border-slate-600">ผ่าน</th>
+                    <th className="sticky top-0 z-20 h-12 px-3 text-center text-xs font-semibold text-slate-300 w-16 border-l border-slate-600"
+                      style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)' }}>ผ่าน</th>
                   </tr>
 
-                  {/* Pass rate summary row */}
-                  <tr className="border-b border-slate-200 bg-slate-50">
-                    <td className="sticky left-0 z-10 px-3 py-1.5 bg-slate-50 border-r border-slate-200" />
-                    <td className="sticky left-8 z-10 px-3 py-1.5 text-xs font-semibold text-slate-500 bg-slate-50 border-r border-slate-200">
+                  {/* แถว 2: อัตราผ่าน — sticky top-12 (ใต้แถว 1) */}
+                  <tr className="border-b border-slate-200">
+                    <td className="sticky left-0 top-12 z-30 px-3 py-1.5 bg-slate-50 border-r border-slate-200" />
+                    <td className="sticky left-8 top-12 z-30 px-3 py-1.5 text-xs font-semibold text-slate-500 bg-slate-50 border-r border-slate-200">
                       อัตราผ่าน ({filteredHospitals.length} รพ.)
                     </td>
-                    <td className="px-3 py-1.5 border-r border-slate-200" />
+                    <td className="sticky top-12 z-20 px-3 py-1.5 bg-slate-50 border-r border-slate-200" />
                     {IND_COLS.map((col, ci) => {
                       const { pass, total } = colPassCount[ci]
                       const pct = total > 0 ? Math.round(pass / total * 100) : null
                       const color = pct == null ? 'text-slate-300' : pct >= 60 ? 'text-green-700' : pct >= 50 ? 'text-yellow-600' : 'text-red-600'
                       return (
-                        <td key={col.key} className="px-1 py-1.5 text-center border-r border-slate-200">
+                        <td key={col.key} className="sticky top-12 z-20 px-1 py-1.5 text-center bg-slate-50 border-r border-slate-200">
                           <div className="text-xs font-semibold text-slate-700">
                             {total > 0 ? `${pass}/${total}` : '–'}
                           </div>
@@ -289,7 +293,7 @@ export default function HospitalPage() {
                         </td>
                       )
                     })}
-                    <td className="px-3 py-1.5 border-l border-slate-200" />
+                    <td className="sticky top-12 z-20 px-3 py-1.5 bg-slate-50 border-l border-slate-200" />
                   </tr>
                 </thead>
 
