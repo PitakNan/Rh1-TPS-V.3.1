@@ -208,12 +208,12 @@ function TrendContent() {
     if (!selectedHospitals.length || !selectedMetrics.length) return []
 
     const getRows = (src: DataSource): Record<string, unknown>[] => {
-      if (src === 'tps')       return scores as Record<string, unknown>[]
-      if (src === 'indicator') return indicators as Record<string, unknown>[]
-      if (src === 'ratio')     return ratios as Record<string, unknown>[]
-      if (src === 'quality')   return qualityMetrics as Record<string, unknown>[]
-      if (src === 'risk')      return riskProfiles as Record<string, unknown>[]
-      return financialPerfs as Record<string, unknown>[]
+      if (src === 'tps')       return scores as unknown as Record<string, unknown>[]
+      if (src === 'indicator') return indicators as unknown as Record<string, unknown>[]
+      if (src === 'ratio')     return ratios as unknown as Record<string, unknown>[]
+      if (src === 'quality')   return qualityMetrics as unknown as Record<string, unknown>[]
+      if (src === 'risk')      return riskProfiles as unknown as Record<string, unknown>[]
+      return financialPerfs as unknown as Record<string, unknown>[]
     }
 
     const lookup = new Map<string, Map<string, number | null>>()
