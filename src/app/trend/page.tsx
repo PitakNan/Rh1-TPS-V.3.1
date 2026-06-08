@@ -18,6 +18,7 @@ import type {
 // ── Types ─────────────────────────────────────────────────────────────────
 
 type Mode = 'tps' | 'indicator' | 'ratio'
+type ViewMode = 'hospital' | 'province'
 type DataSource = 'tps' | 'indicator' | 'ratio' | 'quality' | 'finperf' | 'risk'
 type Unit = 'score' | 'days' | 'pct' | 'ratio' | 'baht'
 
@@ -34,50 +35,57 @@ interface MetricDef {
 
 // ── ค่าคงที่ ─────────────────────────────────────────────────────────────
 
-const COLORS = ['#3b82f6', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6', '#ec4899']
+const COLORS = [
+  '#3b82f6','#f59e0b','#10b981','#ef4444','#8b5cf6','#ec4899',
+  '#06b6d4','#84cc16','#f97316','#6366f1','#14b8a6','#e11d48',
+  '#0ea5e9','#d97706','#7c3aed','#059669','#dc2626','#0284c7',
+  '#16a34a','#9333ea','#ca8a04','#0891b2',
+]
 const DASHES = ['', '6 3', '2 2', '8 3 2 3']
 const MAX_HOSPITALS = 6
+const PROV_AVG_COLOR = '#0f172a'
+const PROV_AVG_DASH  = '10 4'
 
 const TPS_METRICS: MetricDef[] = [
-  { key: 'tps_score',     label: 'TPS รวม',           field: 'tps_score',     source: 'tps', unit: 'score' },
-  { key: 'score_process', label: 'Process',            field: 'score_process', source: 'tps', unit: 'score' },
-  { key: 'score_outcome', label: 'Outcome',            field: 'score_outcome', source: 'tps', unit: 'score' },
-  { key: 'score_1_1',     label: '1.1 รายได้',         field: 'score_1_1',     source: 'tps', unit: 'score' },
-  { key: 'score_1_2',     label: '1.2 ค่าใช้จ่าย',    field: 'score_1_2',     source: 'tps', unit: 'score' },
-  { key: 'score_1_3',     label: '1.3 ประสิทธิภาพ',   field: 'score_1_3',     source: 'tps', unit: 'score' },
-  { key: 'score_2_1',     label: '2.1',                field: 'score_2_1',     source: 'tps', unit: 'score' },
-  { key: 'score_2_2',     label: '2.2',                field: 'score_2_2',     source: 'tps', unit: 'score' },
+  { key: 'tps_score',     label: 'TPS รวม',                    field: 'tps_score',     source: 'tps', unit: 'score' },
+  { key: 'score_process', label: 'Process',                    field: 'score_process', source: 'tps', unit: 'score' },
+  { key: 'score_outcome', label: 'Outcome',                    field: 'score_outcome', source: 'tps', unit: 'score' },
+  { key: 'score_1_1',     label: '1.1 แผนทางการเงิน',          field: 'score_1_1',     source: 'tps', unit: 'score' },
+  { key: 'score_1_2',     label: '1.2 สินทรัพย์หมุนเวียน',    field: 'score_1_2',     source: 'tps', unit: 'score' },
+  { key: 'score_1_3',     label: '1.3 การบริหารจัดการ',        field: 'score_1_3',     source: 'tps', unit: 'score' },
+  { key: 'score_2_1',     label: '2.1 ความสามารถทำกำไร',       field: 'score_2_1',     source: 'tps', unit: 'score' },
+  { key: 'score_2_2',     label: '2.2 สภาพคล่อง',             field: 'score_2_2',     source: 'tps', unit: 'score' },
 ]
 
 const INDICATOR_METRICS: MetricDef[] = [
   // ค่าจริงเป็น %
-  { key: 'ind_revenue',   label: 'รายได้ vs แผน (%)',          field: 'rev_pct',        source: 'finperf',   unit: 'pct',  thresholds: [5, -5] },
-  { key: 'ind_expense',   label: 'ค่าใช้จ่าย vs แผน (%)',      field: 'exp_pct',        source: 'finperf',   unit: 'pct',  thresholds: [5, -5] },
+  { key: 'ind_revenue',   label: 'มิติรายได้ vs แผน (%)',         field: 'rev_pct',        source: 'finperf',   unit: 'pct',  thresholds: [5, -5] },
+  { key: 'ind_expense',   label: 'มิติค่าใช้จ่าย vs แผน (%)',     field: 'exp_pct',        source: 'finperf',   unit: 'pct',  thresholds: [5, -5] },
   // ค่าจริงเป็นวัน
-  { key: 'ind_app_d',     label: 'AP Days (วัน)',               field: 'ind_app_d_val',  source: 'indicator', unit: 'days'  },
-  { key: 'ind_acp_uc',    label: 'ACP UC (วัน)',                field: 'ind_acp_uc_val', source: 'indicator', unit: 'days', threshold: 60 },
-  { key: 'ind_acp_cs',    label: 'ACP CS (วัน)',                field: 'ind_acp_cs_val', source: 'indicator', unit: 'days', threshold: 60 },
-  { key: 'ind_aip',       label: 'Inventory (วัน)',             field: 'ind_aip_val',    source: 'indicator', unit: 'days', threshold: 60 },
+  { key: 'ind_app_d',     label: 'AP Days (วัน)',                  field: 'ind_app_d_val',  source: 'indicator', unit: 'days'  },
+  { key: 'ind_acp_uc',    label: 'ACP:UC (วัน)',                   field: 'ind_acp_uc_val', source: 'indicator', unit: 'days', threshold: 60 },
+  { key: 'ind_acp_cs',    label: 'ACP:CS (วัน)',                   field: 'ind_acp_cs_val', source: 'indicator', unit: 'days', threshold: 60 },
+  { key: 'ind_aip',       label: 'AIP (วัน)',                      field: 'ind_aip_val',    source: 'indicator', unit: 'days', threshold: 60 },
   // ค่าจริงเป็นบาท → แกนขวา (มีค่ากลาง per-group)
-  { key: 'ind_qm_op',     label: 'Unit Cost OP (บาท/ครั้ง)',   field: 'qm_op_cost',     source: 'quality',   unit: 'baht', medianField: 'qm_op_mean'      },
-  { key: 'ind_qm_ip',     label: 'Unit Cost IP (บาท/adjRW)',   field: 'qm_ip_cost',     source: 'quality',   unit: 'baht', medianField: 'qm_ip_mean'      },
-  { key: 'ind_lc',        label: 'LC ค่าแรง (บาท)',            field: 'hgr_lc',         source: 'quality',   unit: 'baht', medianField: 'hgr_lc_mean'     },
-  { key: 'ind_drug',      label: 'MC ยา (บาท)',                field: 'hgr_drug',       source: 'quality',   unit: 'baht', medianField: 'hgr_drug_mean'   },
-  { key: 'ind_sci_mat',   label: 'MC วัสดุวิทย์ (บาท)',        field: 'hgr_sci',        source: 'quality',   unit: 'baht', medianField: 'hgr_sci_mean'    },
-  { key: 'ind_non_drug',  label: 'MC เวชภัณฑ์ (บาท)',          field: 'hgr_nondrug',    source: 'quality',   unit: 'baht', medianField: 'hgr_nondrug_mean'},
+  { key: 'ind_qm_op',     label: 'QM-OP Unit Cost (บาท/ครั้ง)',   field: 'qm_op_cost',     source: 'quality',   unit: 'baht', medianField: 'qm_op_mean'      },
+  { key: 'ind_qm_ip',     label: 'QM-IP Unit Cost (บาท/adjRW)',   field: 'qm_ip_cost',     source: 'quality',   unit: 'baht', medianField: 'qm_ip_mean'      },
+  { key: 'ind_lc',        label: 'LC ค่าแรงบุคลากร (บาท)',        field: 'hgr_lc',         source: 'quality',   unit: 'baht', medianField: 'hgr_lc_mean'     },
+  { key: 'ind_drug',      label: 'MC ค่ายา (บาท)',                 field: 'hgr_drug',       source: 'quality',   unit: 'baht', medianField: 'hgr_drug_mean'   },
+  { key: 'ind_sci_mat',   label: 'MC วัสดุวิทยาศาสตร์ (บาท)',     field: 'hgr_sci',        source: 'quality',   unit: 'baht', medianField: 'hgr_sci_mean'    },
+  { key: 'ind_non_drug',  label: 'MC เวชภัณฑ์มิใช่ยา (บาท)',      field: 'hgr_nondrug',    source: 'quality',   unit: 'baht', medianField: 'hgr_nondrug_mean'},
   // คะแนนเท่านั้น → แกนซ้าย
-  { key: 'ind_trial_bal', label: 'งบทดลอง (คะแนน)',            field: 'ind_trial_bal',  source: 'indicator', unit: 'score' },
+  { key: 'ind_trial_bal', label: 'ตรวจสอบงบทดลอง (คะแนน)',        field: 'ind_trial_bal',  source: 'indicator', unit: 'score' },
   // ค่าจริงจาก risk_profile
-  { key: 'ind_bed_occ',   label: 'อัตราครองเตียง (%)',         field: 'bo_rate',        source: 'risk',      unit: 'pct',  threshold: 80 },
-  { key: 'ind_sum_adjrw', label: 'SumAdjRW (adjRW)',           field: 'sa_value',       source: 'risk',      unit: 'baht'  },
+  { key: 'ind_bed_occ',   label: 'อัตราครองเตียงผู้ป่วยใน (%)',   field: 'bo_rate',        source: 'risk',      unit: 'pct',  threshold: 80 },
+  { key: 'ind_sum_adjrw', label: 'Sum AdjRW (adjRW)',              field: 'sa_value',       source: 'risk',      unit: 'baht'  },
   // ค่าจริงเป็น % (มีค่ากลาง per-group)
-  { key: 'ind_opm',       label: 'OPM (%)',                    field: 'ratio_opm',      source: 'ratio',     unit: 'pct',  medianField: 'ratio_opm_med' },
-  { key: 'ind_roa',       label: 'ROA (%)',                    field: 'ratio_roa',      source: 'ratio',     unit: 'pct',  medianField: 'ratio_roa_med' },
+  { key: 'ind_opm',       label: 'OPM (%)',                        field: 'ratio_opm',      source: 'ratio',     unit: 'pct',  medianField: 'ratio_opm_med' },
+  { key: 'ind_roa',       label: 'ROA (%)',                        field: 'ratio_roa',      source: 'ratio',     unit: 'pct',  medianField: 'ratio_roa_med' },
   // ค่าจริงเป็นบาท → แกนขวา
-  { key: 'ind_ebitda',    label: 'EBITDA (บาท)',               field: 'ratio_ebitda',   source: 'ratio',     unit: 'baht', threshold: 0 },
-  { key: 'ind_nwc',       label: 'NWC (บาท)',                  field: 'ratio_nwc',      source: 'ratio',     unit: 'baht', threshold: 0 },
+  { key: 'ind_ebitda',    label: 'EBITDA (บาท)',                   field: 'ratio_ebitda',   source: 'ratio',     unit: 'baht', threshold: 0 },
+  { key: 'ind_nwc',       label: 'NWC ทุนสำรองสุทธิ (บาท)',       field: 'ratio_nwc',      source: 'ratio',     unit: 'baht', threshold: 0 },
   // ค่า ratio → แกนซ้าย
-  { key: 'ind_cash',      label: 'Cash Ratio',                 field: 'ratio_cash',     source: 'ratio',     unit: 'ratio', threshold: 0.8 },
+  { key: 'ind_cash',      label: 'Cash Ratio',                     field: 'ratio_cash',     source: 'ratio',     unit: 'ratio', threshold: 0.8 },
 ]
 
 const RATIO_METRICS: MetricDef[] = [
@@ -127,6 +135,9 @@ function TrendContent() {
   const [mode, setMode]                           = useState<Mode>('tps')
   const [selectedMetrics, setSelectedMetrics]     = useState<string[]>(['tps_score'])
   const [showMedian, setShowMedian]               = useState(false)
+  const [viewMode, setViewMode]                   = useState<ViewMode>('hospital')
+  const [selectedProvince, setSelectedProvince]   = useState<string>('')
+  const [showProvAvg, setShowProvAvg]             = useState(true)
   const searchRef   = useRef<HTMLDivElement>(null)
   const loadedSources = useRef<Set<string>>(new Set(['tps']))
   const searchParams = useSearchParams()
@@ -167,6 +178,26 @@ function TrendContent() {
       })
     }
   }, [mode])
+
+  // ── Province list ──
+  const provinceList = useMemo(() =>
+    Array.from(new Set(hospitals.map(h => h.province).filter(Boolean))).sort()
+  , [hospitals])
+
+  // ── Auto-select hospitals when province changes ──
+  useEffect(() => {
+    if (viewMode === 'province' && selectedProvince) {
+      const codes = hospitals.filter(h => h.province === selectedProvince).map(h => h.hospital_code)
+      setSelectedHospitals(codes)
+    }
+  }, [selectedProvince, viewMode, hospitals])
+
+  // ── Reset when switching view modes ──
+  useEffect(() => {
+    setSelectedHospitals([])
+    setSelectedProvince('')
+    setSearchText('')
+  }, [viewMode])
 
   // ── Helpers ──
   const hospMap = useMemo(() => {
@@ -267,6 +298,15 @@ function TrendContent() {
           row[`med__${code}`] = medLookup.get(code)?.get(p.period_id) ?? null
         })
       }
+      // Province average per metric per period
+      if (viewMode === 'province') {
+        selectedMetrics.forEach(m => {
+          const vals = selectedHospitals
+            .map(code => lookup.get(`${code}__${m}`)?.get(p.period_id) ?? null)
+            .filter((v): v is number => v != null)
+          row[`prov_avg__${m}`] = vals.length > 0 ? vals.reduce((a, b) => a + b, 0) / vals.length : null
+        })
+      }
       return row
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -358,57 +398,129 @@ function TrendContent() {
 
       <main className="max-w-7xl mx-auto px-4 py-6 space-y-5">
 
-        {/* ── เลือกโรงพยาบาล ── */}
+        {/* ── เลือกโรงพยาบาล / จังหวัด ── */}
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-5">
-          <div className="flex items-center gap-2 mb-4">
-            <div className="w-1 h-5 rounded-full" style={{ background: 'linear-gradient(to bottom, #f59e0b, #d97706)' }} />
-            <h2 className="text-base font-semibold text-slate-800">เลือกโรงพยาบาล</h2>
-            <span className="text-xs text-slate-400">สูงสุด {MAX_HOSPITALS} แห่ง</span>
-            {selectedHospitals.length > 0 && (
+
+          {/* Toggle hospital / province */}
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-1 h-5 rounded-full shrink-0" style={{ background: 'linear-gradient(to bottom, #f59e0b, #d97706)' }} />
+            <div className="flex rounded-xl border border-slate-200 overflow-hidden text-sm">
+              {(['hospital', 'province'] as ViewMode[]).map(vm => (
+                <button key={vm} onClick={() => setViewMode(vm)}
+                  className={`px-4 py-2 font-medium transition ${viewMode === vm ? 'text-white' : 'bg-white text-slate-600 hover:bg-slate-50'}`}
+                  style={viewMode === vm ? { background: 'linear-gradient(135deg, #0f172a, #334155)' } : {}}>
+                  {vm === 'hospital' ? '🏥 รายโรงพยาบาล' : '🗺️ รายจังหวัด'}
+                </button>
+              ))}
+            </div>
+            {viewMode === 'hospital' && (
+              <span className="text-xs text-slate-400">สูงสุด {MAX_HOSPITALS} แห่ง</span>
+            )}
+            {selectedHospitals.length > 0 && viewMode === 'hospital' && (
               <button onClick={() => setSelectedHospitals([])} className="ml-auto text-xs text-slate-400 hover:text-red-500 transition">ล้างทั้งหมด</button>
             )}
           </div>
-          <div ref={searchRef} className="relative mb-3">
-            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm pointer-events-none">🔍</span>
-            <input type="text" value={searchText}
-              onChange={e => { setSearchText(e.target.value); setShowDropdown(true) }}
-              onFocus={() => setShowDropdown(true)}
-              placeholder={selectedHospitals.length >= MAX_HOSPITALS ? `เลือกครบ ${MAX_HOSPITALS} แห่งแล้ว` : 'ค้นหาชื่อหรือรหัสโรงพยาบาล...'}
-              disabled={selectedHospitals.length >= MAX_HOSPITALS}
-              className="w-full text-sm border border-slate-200 rounded-xl pl-9 pr-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-slate-50 disabled:cursor-not-allowed"
-            />
-            {showDropdown && searchResults.length > 0 && (
-              <div className="absolute z-20 top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl overflow-hidden">
-                {searchResults.map(h => (
-                  <button key={h.hospital_code} onMouseDown={e => { e.preventDefault(); addHospital(h.hospital_code) }}
-                    className="w-full text-left px-4 py-2.5 hover:bg-blue-50 transition flex items-center gap-3">
-                    <span className="text-xs font-mono text-slate-400 w-14 shrink-0">{h.hospital_code}</span>
-                    <span className="text-sm text-slate-700 flex-1 truncate">{h.hospital_name}</span>
-                    <span className="text-xs text-slate-400 shrink-0">{h.province}</span>
-                    <span className="text-xs px-1.5 py-0.5 rounded bg-slate-100 text-slate-500 shrink-0">{h.type}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-          {selectedHospitals.length > 0 ? (
-            <div className="flex flex-wrap gap-2">
-              {selectedHospitals.map((code, i) => {
-                const h = hospMap.get(code)
-                return (
-                  <div key={code} className="flex items-center gap-2 pl-3 pr-2 py-1.5 rounded-full text-sm text-white shadow-sm"
-                    style={{ background: COLORS[i % COLORS.length] }}>
-                    <div className="w-2 h-2 rounded-full bg-white/40" />
-                    <span className="font-medium max-w-[200px] truncate">{h?.hospital_name ?? code}</span>
-                    <span className="text-white/60 text-xs">{h?.province}</span>
-                    <button onClick={() => removeHospital(code)}
-                      className="ml-1 w-5 h-5 rounded-full bg-white/20 hover:bg-white/40 transition flex items-center justify-center text-xs">×</button>
+
+          {/* Hospital search */}
+          {viewMode === 'hospital' && (
+            <>
+              <div ref={searchRef} className="relative mb-3">
+                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm pointer-events-none">🔍</span>
+                <input type="text" value={searchText}
+                  onChange={e => { setSearchText(e.target.value); setShowDropdown(true) }}
+                  onFocus={() => setShowDropdown(true)}
+                  placeholder={selectedHospitals.length >= MAX_HOSPITALS ? `เลือกครบ ${MAX_HOSPITALS} แห่งแล้ว` : 'ค้นหาชื่อหรือรหัสโรงพยาบาล...'}
+                  disabled={selectedHospitals.length >= MAX_HOSPITALS}
+                  className="w-full text-sm border border-slate-200 rounded-xl pl-9 pr-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-slate-50 disabled:cursor-not-allowed"
+                />
+                {showDropdown && searchResults.length > 0 && (
+                  <div className="absolute z-20 top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl overflow-hidden">
+                    {searchResults.map(h => (
+                      <button key={h.hospital_code} onMouseDown={e => { e.preventDefault(); addHospital(h.hospital_code) }}
+                        className="w-full text-left px-4 py-2.5 hover:bg-blue-50 transition flex items-center gap-3">
+                        <span className="text-xs font-mono text-slate-400 w-14 shrink-0">{h.hospital_code}</span>
+                        <span className="text-sm text-slate-700 flex-1 truncate">{h.hospital_name}</span>
+                        <span className="text-xs text-slate-400 shrink-0">{h.province}</span>
+                        <span className="text-xs px-1.5 py-0.5 rounded bg-slate-100 text-slate-500 shrink-0">{h.type}</span>
+                      </button>
+                    ))}
                   </div>
-                )
-              })}
+                )}
+              </div>
+              {selectedHospitals.length > 0 ? (
+                <div className="flex flex-wrap gap-2">
+                  {selectedHospitals.map((code, i) => {
+                    const h = hospMap.get(code)
+                    return (
+                      <div key={code} className="flex items-center gap-2 pl-3 pr-2 py-1.5 rounded-full text-sm text-white shadow-sm"
+                        style={{ background: COLORS[i % COLORS.length] }}>
+                        <div className="w-2 h-2 rounded-full bg-white/40" />
+                        <span className="font-medium max-w-[200px] truncate">{h?.hospital_name ?? code}</span>
+                        <span className="text-white/60 text-xs">{h?.province}</span>
+                        <button onClick={() => removeHospital(code)}
+                          className="ml-1 w-5 h-5 rounded-full bg-white/20 hover:bg-white/40 transition flex items-center justify-center text-xs">×</button>
+                      </div>
+                    )
+                  })}
+                </div>
+              ) : (
+                <p className="text-sm text-slate-400 text-center py-2">ค้นหาและเลือกโรงพยาบาลที่ต้องการเปรียบเทียบ</p>
+              )}
+            </>
+          )}
+
+          {/* Province selector */}
+          {viewMode === 'province' && (
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <select
+                  value={selectedProvince}
+                  onChange={e => setSelectedProvince(e.target.value)}
+                  className="text-sm border border-slate-200 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white min-w-[200px]"
+                >
+                  <option value="">— เลือกจังหวัด —</option>
+                  {provinceList.map(p => {
+                    const cnt = hospitals.filter(h => h.province === p).length
+                    return <option key={p} value={p}>{p} ({cnt} รพ.)</option>
+                  })}
+                </select>
+                {selectedProvince && (
+                  <span className="text-sm text-slate-500">
+                    แสดง <span className="font-semibold text-blue-600">{selectedHospitals.length}</span> โรงพยาบาล
+                  </span>
+                )}
+                {selectedProvince && (
+                  <div className="ml-auto flex items-center gap-2">
+                    <button onClick={() => setShowProvAvg(v => !v)}
+                      className={`relative inline-flex items-center h-5 w-9 rounded-full transition ${showProvAvg ? 'bg-slate-800' : 'bg-slate-300'}`}>
+                      <span className={`inline-block w-4 h-4 rounded-full bg-white shadow transform transition ${showProvAvg ? 'translate-x-4' : 'translate-x-0.5'}`} />
+                    </button>
+                    <span className="text-xs text-slate-600">เส้นค่าเฉลี่ยจังหวัด</span>
+                    <span className="inline-block w-6 h-0.5 rounded" style={{ background: PROV_AVG_COLOR, borderTop: `2px dashed ${PROV_AVG_COLOR}` }} />
+                  </div>
+                )}
+              </div>
+
+              {/* Hospital chips (condensed) */}
+              {selectedHospitals.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 max-h-24 overflow-y-auto pr-1">
+                  {selectedHospitals.map((code, i) => {
+                    const h = hospMap.get(code)
+                    return (
+                      <div key={code} className="flex items-center gap-1 px-2 py-1 rounded-full text-xs text-white"
+                        style={{ background: COLORS[i % COLORS.length] }}>
+                        <div className="w-1.5 h-1.5 rounded-full bg-white/50" />
+                        <span className="max-w-[140px] truncate">{h?.hospital_name ?? code}</span>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
+
+              {!selectedProvince && (
+                <p className="text-sm text-slate-400 text-center py-2">เลือกจังหวัดเพื่อดูแนวโน้มทุก รพ. พร้อมกัน</p>
+              )}
             </div>
-          ) : (
-            <p className="text-sm text-slate-400 text-center py-2">ค้นหาและเลือกโรงพยาบาลที่ต้องการเปรียบเทียบ</p>
           )}
         </div>
 
@@ -504,9 +616,17 @@ function TrendContent() {
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
           <div className="flex items-center gap-2 mb-5">
             <div className="w-1 h-5 rounded-full" style={{ background: 'linear-gradient(to bottom, #f59e0b, #d97706)' }} />
-            <h2 className="text-base font-semibold text-slate-800">
-              {selectedMetrics.map(k => getMetricDef(k)?.label ?? k).join(' vs ')}
-            </h2>
+            <div>
+              <h2 className="text-base font-semibold text-slate-800">
+                {selectedMetrics.map(k => getMetricDef(k)?.label ?? k).join(' vs ')}
+              </h2>
+              {viewMode === 'province' && selectedProvince && (
+                <p className="text-xs text-slate-400 mt-0.5">
+                  จ.{selectedProvince} · {selectedHospitals.length} โรงพยาบาล
+                  {showProvAvg && <span className="ml-2 font-medium" style={{ color: PROV_AVG_COLOR }}>── ค่าเฉลี่ยจังหวัด</span>}
+                </p>
+              )}
+            </div>
             <span className="ml-auto text-xs text-slate-400">{periods.length} ไตรมาส · 2563Q4–2569Q2</span>
           </div>
 
@@ -554,9 +674,24 @@ function TrendContent() {
                 />
                 {lines.map(l => (
                   <Line key={l.dataKey} yAxisId={l.yAxisId} type="monotone" dataKey={l.dataKey}
-                    stroke={l.color} strokeWidth={2} strokeDasharray={l.dash}
-                    dot={{ r: 2.5, strokeWidth: 0, fill: l.color }}
+                    stroke={l.color} strokeWidth={viewMode === 'province' ? 1.5 : 2}
+                    strokeDasharray={l.dash} strokeOpacity={viewMode === 'province' ? 0.7 : 1}
+                    dot={viewMode === 'province' ? false : { r: 2.5, strokeWidth: 0, fill: l.color }}
                     activeDot={{ r: 5, strokeWidth: 2, stroke: '#fff' }}
+                    connectNulls={false}
+                  />
+                ))}
+
+                {/* เส้นค่าเฉลี่ยจังหวัด */}
+                {viewMode === 'province' && showProvAvg && selectedMetrics.map(m => (
+                  <Line key={`prov_avg__${m}`}
+                    yAxisId={isRightAxis(m) ? 'right' : 'left'}
+                    type="monotone" dataKey={`prov_avg__${m}`}
+                    stroke={PROV_AVG_COLOR} strokeWidth={3}
+                    strokeDasharray={PROV_AVG_DASH}
+                    dot={{ r: 3.5, strokeWidth: 0, fill: PROV_AVG_COLOR }}
+                    activeDot={{ r: 6, strokeWidth: 2, stroke: '#fff' }}
+                    name={`ค่าเฉลี่ย ${selectedProvince}${selectedMetrics.length > 1 ? ' · ' + (getMetricDef(m)?.label ?? m) : ''}`}
                     connectNulls={false}
                   />
                 ))}
