@@ -15,12 +15,12 @@ const GRADE_CONFIG: Record<string, { label: string; color: string; bg: string; b
 }
 
 const IND_CONFIG: { key: string; label: string; source: 'indicator' | 'finperf'; binaryOnly?: boolean }[] = [
-  { key: 'ind_revenue',   label: 'มิติรายได้',                                                              source: 'indicator' },
-  { key: 'ind_expense',   label: 'มิติค่าใช้จ่าย',                                                          source: 'indicator', binaryOnly: true },
-  { key: 'ind_app_d',     label: 'ระยะเวลาชำระเจ้าหนี้การค้ายา&เวชภัณฑ์มิใช่ยา ≤ 90/180 วัน',             source: 'indicator' },
-  { key: 'ind_acp_uc',    label: 'ระยะเวลาถัวเฉลี่ยการเรียกเก็บหนี้สิทธิ UC ≤ 60 วัน',                    source: 'indicator' },
-  { key: 'ind_acp_cs',    label: 'ระยะเวลาถัวเฉลี่ยการเรียกเก็บหนี้สิทธิข้าราชการ ≤ 60 วัน',              source: 'indicator' },
-  { key: 'ind_aip',       label: 'การบริหารสินค้าคงคลัง (Inventory Management) ≤ 60/90 วัน',               source: 'indicator' },
+  { key: 'ind_revenue',   label: 'มิติรายได้ ±ไม่เกิน 5%',                                                  source: 'indicator' },
+  { key: 'ind_expense',   label: 'มิติค่าใช้จ่าย ±ไม่เกิน 5%',                                              source: 'indicator', binaryOnly: true },
+  { key: 'ind_app_d',     label: 'AP Days ≤90/180 วัน',                                                     source: 'indicator' },
+  { key: 'ind_acp_uc',    label: 'ACP:UC ≤60 วัน',                                                          source: 'indicator' },
+  { key: 'ind_acp_cs',    label: 'ACP:CS ≤60 วัน',                                                          source: 'indicator' },
+  { key: 'ind_aip',       label: 'AIP ≤60/90 วัน',                                                          source: 'indicator' },
   { key: 'ind_qm_op',     label: 'Unit Cost for OP',                                                        source: 'indicator' },
   { key: 'ind_qm_ip',     label: 'Unit Cost for IP',                                                        source: 'indicator' },
   { key: 'ind_lc',        label: 'LC ค่าแรงบุคลากร',                                                        source: 'indicator' },
@@ -28,13 +28,13 @@ const IND_CONFIG: { key: string; label: string; source: 'indicator' | 'finperf';
   { key: 'ind_sci_mat',   label: 'MC ค่าวัสดุวิทยาศาสตร์และการแพทย์',                                      source: 'indicator' },
   { key: 'ind_non_drug',  label: 'MC ค่าเวชภัณฑ์มิใช่ยาและวัสดุการแพทย์',                                  source: 'indicator' },
   { key: 'ind_trial_bal', label: 'คะแนนตรวจสอบงบทดลองเบื้องต้น',                                           source: 'indicator' },
-  { key: 'ind_bed_occ',   label: 'อัตราครองเตียงผู้ป่วยใน ≥ 80%',                                          source: 'indicator' },
-  { key: 'ind_sum_adjrw', label: 'SumAdjRW เกินค่ากลางกลุ่มรพ. หรือเพิ่มขึ้น 5%',                         source: 'indicator' },
-  { key: 'ind_opm',       label: 'ประสิทธิภาพในการดำเนินงาน (Operating Margin)',                            source: 'indicator' },
-  { key: 'ind_roa',       label: 'อัตราผลตอบแทนจากสินทรัพย์ (Return on Asset)',                            source: 'indicator' },
-  { key: 'ind_ebitda',    label: 'EBITDA ≥ 0',                                                              source: 'indicator' },
-  { key: 'ind_nwc',       label: 'ทุนสำรองสุทธิ (Net Working Capital) ≥ 0',                                 source: 'indicator' },
-  { key: 'ind_cash',      label: 'Cash Ratio ≥ 0.8',                                                        source: 'indicator' },
+  { key: 'ind_bed_occ',   label: 'อัตราครองเตียงผู้ป่วยใน ≥80%',                                           source: 'indicator' },
+  { key: 'ind_sum_adjrw', label: 'Sum AdjRW เกินค่ากลางกลุ่มรพ./+5%',                                      source: 'indicator' },
+  { key: 'ind_opm',       label: 'ประสิทธิภาพในการดำเนินงาน (OPM)',                                         source: 'indicator' },
+  { key: 'ind_roa',       label: 'อัตราผลตอบแทนจากสินทรัพย์ (ROA)',                                         source: 'indicator' },
+  { key: 'ind_ebitda',    label: 'EBITDA ≥0',                                                               source: 'indicator' },
+  { key: 'ind_nwc',       label: 'ทุนสำรองสุทธิ (NWC) ≥0',                                                  source: 'indicator' },
+  { key: 'ind_cash',      label: 'Cash Ratio ≥0.8',                                                         source: 'indicator' },
 ]
 
 const HOSPITAL_TYPES = ['A', 'S', 'M1', 'M2', 'F1', 'F2', 'F3']
@@ -334,6 +334,21 @@ export default function OverviewPage() {
 
       <main className="max-w-7xl mx-auto px-4 py-6 space-y-6">
 
+        {/* ── Narrative Insight ── */}
+        {!loading && (
+          <NarrativeInsight
+            totalHosp={totalHosp}
+            passPct={parseFloat(passPct)}
+            passCount={passCount}
+            gradeCounts={gradeCounts}
+            indPassRates={indPassRates}
+            provinceData={provinceData}
+            periodLabel={(() => { const p = periods.find(x => x.period_id === selectedPeriod); return p ? `ไตรมาส ${p.quarter}/${p.year}` : selectedPeriod })()}
+            zoneLabel={selectedZone === 'all' ? 'ทุกเขตสุขภาพ' : `เขตสุขภาพ ${selectedZone}`}
+            indLoading={indLoading}
+          />
+        )}
+
         {/* ── Summary Cards ── */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <SummaryCard icon="🏥" label="โรงพยาบาลทั้งหมด" value={totalHosp.toLocaleString()} sub="แห่ง" color="navy" />
@@ -545,6 +560,114 @@ function DrillModal({ title, subtitle, rows, onClose }: {
         <div className="px-5 py-3 border-t border-slate-100 text-right">
           <button onClick={onClose} className="text-xs px-4 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 transition">ปิด</button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+// ── Narrative Insight ─────────────────────────────────────────
+
+function NarrativeInsight({
+  totalHosp, passPct, passCount, gradeCounts,
+  indPassRates, provinceData, periodLabel, zoneLabel, indLoading,
+}: {
+  totalHosp: number
+  passPct: number
+  passCount: number
+  gradeCounts: Record<string, number>
+  indPassRates: { key: string; label: string; pass: number; total: number; pct: number | null }[]
+  provinceData: { province: string; total: number; pass: number; pct: number; avgTps: number }[]
+  periodLabel: string
+  zoneLabel: string
+  indLoading: boolean
+}) {
+  if (totalHosp === 0) return null
+
+  const status = passPct >= 60 ? 'ok' : passPct >= 50 ? 'warning' : 'critical'
+  const sc = {
+    ok:       { bg: '#f0fdf4', border: '#22c55e', titleColor: '#15803d', icon: '🟢', label: 'ภาพรวมดี' },
+    warning:  { bg: '#fffbeb', border: '#f59e0b', titleColor: '#92400e', icon: '🟡', label: 'ควรติดตาม' },
+    critical: { bg: '#fff1f2', border: '#ef4444', titleColor: '#b91c1c', icon: '🔴', label: 'ต้องเฝ้าระวัง' },
+  }[status]
+
+  const fCount = gradeCounts['F'] ?? 0
+  const fPct   = totalHosp > 0 ? (fCount / totalHosp * 100) : 0
+  const aCount = gradeCounts['A'] ?? 0
+
+  // 3 ตัวชี้วัดที่ผ่านน้อยสุด
+  const worstInds = indLoading ? [] :
+    [...indPassRates]
+      .filter(r => r.pct != null)
+      .sort((a, b) => (a.pct ?? 0) - (b.pct ?? 0))
+      .slice(0, 3)
+
+  // ชื่อย่อของตัวชี้วัด
+  const shortLabel = (label: string) => label.split(/[≤≥±(]/)[0].trim()
+
+  const topProv   = provinceData[0]
+  const worstProv = provinceData[provinceData.length - 1]
+
+  return (
+    <div style={{ background: sc.bg, border: `1.5px solid ${sc.border}`, borderRadius: '12px', padding: '16px 20px' }}>
+      {/* Header */}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="text-base">{sc.icon}</span>
+        <span className="font-bold text-sm" style={{ color: sc.titleColor }}>สรุปภาพรวม — {sc.label}</span>
+        <span className="text-xs text-slate-400">{totalHosp.toLocaleString()} รพ. · {periodLabel} · {zoneLabel}</span>
+      </div>
+
+      {/* Insight lines */}
+      <div className="space-y-1.5">
+
+        {/* A+B pass rate */}
+        <div className="text-sm leading-relaxed" style={{ color: passPct >= 60 ? '#15803d' : passPct >= 50 ? '#92400e' : '#b91c1c' }}>
+          📊 อัตราผ่านเกณฑ์ (A+B){' '}
+          <strong>{passPct.toFixed(1)}%</strong> ({passCount.toLocaleString()} แห่ง)
+          {passPct < 60 && <span className="text-slate-400"> — ต่ำกว่าเป้า 60%</span>}
+          {aCount > 0 && <span style={{ color: '#15803d' }}> · เกรด A <strong>{aCount} แห่ง</strong></span>}
+        </div>
+
+        {/* Grade F */}
+        {fCount > 0 && (
+          <div className="text-sm leading-relaxed" style={{ color: '#b91c1c' }}>
+            ⚠️ เกรด F มี <strong>{fCount} แห่ง ({fPct.toFixed(1)}%)</strong> — ต้องให้ความสนใจเป็นพิเศษ
+          </div>
+        )}
+
+        {/* Worst indicators */}
+        {!indLoading && worstInds.length > 0 && (
+          <div className="text-sm leading-relaxed" style={{ color: '#b45309' }}>
+            📉 ตัวชี้วัดที่ผ่านน้อยที่สุด:{' '}
+            {worstInds.map((ind, i) => (
+              <span key={ind.key}>
+                {i > 0 && ' · '}
+                <strong>{shortLabel(ind.label)}</strong> ({ind.pct?.toFixed(0)}%)
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* Province highlights */}
+        {provinceData.length > 1 && topProv && worstProv && (
+          <div className="text-sm leading-relaxed" style={{ color: '#1d4ed8' }}>
+            🗺️ จังหวัดที่ดีที่สุด:{' '}
+            <strong>{topProv.province}</strong> ({topProv.pct.toFixed(0)}% A+B)
+            {worstProv.province !== topProv.province && (
+              <span style={{ color: '#b91c1c' }}>
+                {' '}· ต่ำสุด: <strong>{worstProv.province}</strong> ({worstProv.pct.toFixed(0)}%)
+              </span>
+            )}
+          </div>
+        )}
+
+        {/* Loading indicators state */}
+        {indLoading && (
+          <div className="text-xs text-slate-400 flex items-center gap-1.5">
+            <div className="w-3 h-3 border-2 border-blue-400 border-t-transparent rounded-full animate-spin" />
+            กำลังโหลดข้อมูลตัวชี้วัด...
+          </div>
+        )}
+
       </div>
     </div>
   )
